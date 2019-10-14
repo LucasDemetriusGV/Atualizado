@@ -994,6 +994,21 @@ SYS_DESCRICAOPARAMETRO                  |CODDESCRICAOPARAMETRO                  
 SYS_DESCRICAOPARAMETRO                  |CODDESCRICAOPARAMETRO                   |995|CONDIÇÃO DE PAGAMENTO PADRÃO NFC-E|
 SYS_DESCRICAOPARAMETRO                  |CODDESCRICAOPARAMETRO                   |996|PASSAR ESPÉCIE DE PGTO DO CADASTRO PARA FATURAMENTO|
 SYS_DESCRICAOPARAMETRO                  |CODDESCRICAOPARAMETRO                   |997|DESCONTO ITEM NOTA DE VENDA 1=CADASTRO MERCADORIA 2=PARAMETRO(206)|
+SYS_DESCRICAOPARAMETRO                  |CODDESCRICAOPARAMETRO                   |998|LIBERAR SPED FISCAL AUTORIZAÇÃO COBRADO SEPARADO|
+SYS_DESCRICAOPARAMETRO                  |CODDESCRICAOPARAMETRO                   |999|LIBERAR NFC-E NOTA FISCAL CONSUMIDO ELETRONICA COBRADO SEPARADO|
+SYS_DESCRICAOPARAMETRO                  |CODDESCRICAOPARAMETRO                   |1000|NOME DO COMPRADOR NA TELA E NA IMPRESSÃO NOTA DE VENDA PEQUENA|
+SYS_DESCRICAOPARAMETRO                  |CODDESCRICAOPARAMETRO                   |1001|NFC-E INFORME CST PADRÃO PARA MERCADORIAS COM CST = 060|
+SYS_DESCRICAOPARAMETRO                  |CODDESCRICAOPARAMETRO                   |1002|NFC-E INFORME CST PADRÃO PARA MERCADORIAS COM CST = 000|
+SYS_DESCRICAOPARAMETRO                  |CODDESCRICAOPARAMETRO                   |1003|NFC-E INFORME ALIQUOTA PADRÃO PARA MERCADORIAS COM CST = 060|
+SYS_DESCRICAOPARAMETRO                  |CODDESCRICAOPARAMETRO                   |1004|NFC-E INFORME ALIQUOTA PADRÃO PARA MERCADORIAS COM CST = 000|
+SYS_DESCRICAOPARAMETRO                  |CODDESCRICAOPARAMETRO                   |1005|MOSTRAR TELA QUANDO CUPOM FISCAL NÃO É CAPTURADO|
+SYS_DESCRICAOPARAMETRO                  |CODDESCRICAOPARAMETRO                   |1006|PERFIL PARA MOSTRAR TELA QUANDO CUPOM FISCAL NÃO É CAPTURADO|
+SYS_DESCRICAOPARAMETRO                  |CODDESCRICAOPARAMETRO                   |1007|CAMINHO ONDE ESTA O TeamViewer13 QS  EXEMPLO (C:\TEMP\TeamViewerQS.EXE)|
+SYS_DESCRICAOPARAMETRO                  |CODDESCRICAOPARAMETRO                   |1008|GERAR TELEMARKTING DE AGENDAMENTO DE SERVIÇOS NA VENDA?|
+SYS_DESCRICAOPARAMETRO                  |CODDESCRICAOPARAMETRO                   |1009|TIPO DE TELEFONE PARA WHATSAPP|
+SYS_DESCRICAOPARAMETRO                  |CODDESCRICAOPARAMETRO                   |1010|GRUPO MERCADORIAS USO/CONSUMO P/ NÃO MOSTRAR NO F6, VENDAS, NFE|
+SYS_DESCRICAOPARAMETRO                  |CODDESCRICAOPARAMETRO                   |1011|CFOP PADRÃO COMPRAS PARA USO/CONSUMO DENTRO DO ESTADO|
+SYS_DESCRICAOPARAMETRO                  |CODDESCRICAOPARAMETRO                   |1012|CFOP PADRÃO COMPRAS PARA USO/CONSUMO FORDA DO ESTADO|
 SYS_PARAMETRO_OPCAO                     |CODOPCAO                                |1|EM_TAMANHO_ETIQMERC|89X23 MATRICIAL||
 SYS_PARAMETRO_OPCAO                     |CODOPCAO                                |2|EM_TAMANHO_ETIQMERC|70X23 MATRICIAL||
 SYS_PARAMETRO_OPCAO                     |CODOPCAO                                |5|CL_BUSCA_CLIENTE|NOME||
@@ -1214,14 +1229,14 @@ SYS_PARAMETRO                           |CODPARAMETRO                           
 SYS_PARAMETRO                           |CODPARAMETRO                            |9|CF|1|1|CF_REQUER_CPFCNPJ|L|NÃO||||||(Memo)|||
 SYS_PARAMETRO                           |CODPARAMETRO                            |10|ES|3|1|ES_PREFIXO_SUFIXO|L|NÃO||||||(Memo)|||
 SYS_PARAMETRO                           |CODPARAMETRO                            |11|ES|7|1|ES_BAIXA_CAD_MERCOMP|L|NÃO||||||(Memo)|||
-SYS_PARAMETRO                           |CODPARAMETRO                            |12|ES|4|1|ES_COD_PADRAO|D|4|EST_TIPOCODIGOMERCADORIA|NOME|CODTIPOCODIGOMERCADORIA|||(Memo)|||
+SYS_PARAMETRO                           |CODPARAMETRO                            |12|ES|4|1|ES_COD_PADRAO|D|500000|EST_TIPOCODIGOMERCADORIA|NOME|CODTIPOCODIGOMERCADORIA|||(Memo)|||
 SYS_PARAMETRO                           |CODPARAMETRO                            |13|ES|6|1|ES_COD_PADRAO_REPETE|L|NÃO||||||(Memo)|||
-SYS_PARAMETRO                           |CODPARAMETRO                            |14|ES|8|1|ES_CRITERIO_BUSCA|C|CONTENHA||||||(Memo)|||
+SYS_PARAMETRO                           |CODPARAMETRO                            |14|ES|8|1|ES_CRITERIO_BUSCA|C|COMECE COM||||||(Memo)|||
 SYS_PARAMETRO                           |CODPARAMETRO                            |15|GE|12|1|GE_FECHAR_SERVIDOR|L|NÃO||||||(Memo)|||
 SYS_PARAMETRO                           |CODPARAMETRO                            |16|GE|13|1|GE_FAZER_BACKUP|L|NÃO||||||(Memo)|||
 SYS_PARAMETRO                           |CODPARAMETRO                            |17|CO|14|1|CO_CH_CAMPO_BUSCA|C|NOME||||||(Memo)|||
 SYS_PARAMETRO                           |CODPARAMETRO                            |18|CO|15|1|CO_CH_CRITERIO_BUSCA|C|1||||||(Memo)|||
-SYS_PARAMETRO                           |CODPARAMETRO                            |19|GE|16|1|GE_BOTAO_CHEQUE|L|NÃO||||||(Memo)|||
+SYS_PARAMETRO                           |CODPARAMETRO                            |19|GE|16|1|GE_BOTAO_CHEQUE|L|SIM||||||(Memo)|||
 SYS_PARAMETRO                           |CODPARAMETRO                            |20|GE|17|1|GE_SAIR_SISTEMA|L|SIM||||||(Memo)|||
 SYS_PARAMETRO                           |CODPARAMETRO                            |21|CO|18|1|CO_TIPO_CONTABIL|C|Tipo Contábil||||||(Memo)|||
 SYS_PARAMETRO                           |CODPARAMETRO                            |22|CO|19|1|CO_NUM_CNT_REPETIDO|L|NÃO||||||(Memo)|||
@@ -1231,28 +1246,28 @@ SYS_PARAMETRO                           |CODPARAMETRO                           
 SYS_PARAMETRO                           |CODPARAMETRO                            |26|GE|34|1|GE_FORMATO_DATA|C|dd/mm/yyyy||||||(Memo)|||
 SYS_PARAMETRO                           |CODPARAMETRO                            |28|CO|740|1|CO_MOEDA_PADRAO|D|1|CNT_MOEDA|SIMBOLO|CODMOEDA|||(Memo)|||
 SYS_PARAMETRO                           |CODPARAMETRO                            |29|CO|25|1|CO_FORMA_PG_CH|D|2|GER_FORMAPAGAMENTO|NOME|CODFORMAPAGAMENTO|||(Memo)|||
-SYS_PARAMETRO                           |CODPARAMETRO                            |30|CO|26|1|CO_PC_DESC_CONCEDIDO|D|118|GER_PLANOCONTA|NOME|CODPLANOCONTA|||(Memo)|||
-SYS_PARAMETRO                           |CODPARAMETRO                            |31|CO|27|1|CO_PC_DESC_RECEBIDO|D|21|GER_PLANOCONTA|NOME|CODPLANOCONTA|||(Memo)|||
-SYS_PARAMETRO                           |CODPARAMETRO                            |32|CO|28|1|CO_PC_JUROS_PAGOS|D|75|GER_PLANOCONTA|NOME|CODPLANOCONTA|||(Memo)|||
-SYS_PARAMETRO                           |CODPARAMETRO                            |33|CO|29|1|CO_PC_JUROS_RECEBIDO|D|19|GER_PLANOCONTA|NOME|CODPLANOCONTA|||(Memo)|||
-SYS_PARAMETRO                           |CODPARAMETRO                            |34|CO|30|1|CO_PC_MULTAS_PAGAS|D|77|GER_PLANOCONTA|NOME|CODPLANOCONTA|||(Memo)|||
-SYS_PARAMETRO                           |CODPARAMETRO                            |35|CO|31|1|CO_PC_MULTAS_RECEBE|D|20|GER_PLANOCONTA|NOME|CODPLANOCONTA|||(Memo)|||
-SYS_PARAMETRO                           |CODPARAMETRO                            |36|CO|32|1|CO_CC_DJM|D|1|GER_CENTROCUSTO|NOME|CODCENTROCUSTO|||(Memo)|||
+SYS_PARAMETRO                           |CODPARAMETRO                            |30|CO|26|1|CO_PC_DESC_CONCEDIDO|D|202003|GER_PLANOCONTA|NOME|CODPLANOCONTA|||(Memo)|||
+SYS_PARAMETRO                           |CODPARAMETRO                            |31|CO|27|1|CO_PC_DESC_RECEBIDO|D|103003|GER_PLANOCONTA|NOME|CODPLANOCONTA|||(Memo)|||
+SYS_PARAMETRO                           |CODPARAMETRO                            |32|CO|28|1|CO_PC_JUROS_PAGOS|D|202001|GER_PLANOCONTA|NOME|CODPLANOCONTA|||(Memo)|||
+SYS_PARAMETRO                           |CODPARAMETRO                            |33|CO|29|1|CO_PC_JUROS_RECEBIDO|D|103001|GER_PLANOCONTA|NOME|CODPLANOCONTA|||(Memo)|||
+SYS_PARAMETRO                           |CODPARAMETRO                            |34|CO|30|1|CO_PC_MULTAS_PAGAS|D|202002|GER_PLANOCONTA|NOME|CODPLANOCONTA|||(Memo)|||
+SYS_PARAMETRO                           |CODPARAMETRO                            |35|CO|31|1|CO_PC_MULTAS_RECEBE|D|103002|GER_PLANOCONTA|NOME|CODPLANOCONTA|||(Memo)|||
+SYS_PARAMETRO                           |CODPARAMETRO                            |36|CO|32|1|CO_CC_DJM|D|2|GER_CENTROCUSTO|NOME|CODCENTROCUSTO|||(Memo)|||
 SYS_PARAMETRO                           |CODPARAMETRO                            |37|GE|33|1|GE_SEPARADOR_DATA|C|/||||||(Memo)|||
 SYS_PARAMETRO                           |CODPARAMETRO                            |38|CO|35|1|CO_VER_CONTA_PARCIAL|L|SIM||||||(Memo)|||
-SYS_PARAMETRO                           |CODPARAMETRO                            |39|CF|23|1|CF_CIDADE_PADRAO|D|85|CLF_CIDADE|NOME|CODCIDADE|||(Memo)|||
+SYS_PARAMETRO                           |CODPARAMETRO                            |39|CF|23|1|CF_CIDADE_PADRAO|D|84|CLF_CIDADE|NOME|CODCIDADE|||(Memo)|||
 SYS_PARAMETRO                           |CODPARAMETRO                            |40|ES|36|4|ES_ISS_PADRAO|R|5||||||(Memo)|||
 SYS_PARAMETRO                           |CODPARAMETRO                            |41|GE|37|1|GE_TRABALHA_GRADE|L|NÃO||||||(Memo)|||
 SYS_PARAMETRO                           |CODPARAMETRO                            |43|GE|38|1|GE_GRADE_UNICA|D|1|EST_GRADE|NOME|CODGRADE|||(Memo)|||
 SYS_PARAMETRO                           |CODPARAMETRO                            |44|ES|39|1|ES_FOCO_PREFERIDO|C|CODIGO||||||(Memo)|||
 SYS_PARAMETRO                           |CODPARAMETRO                            |45|ES|188|1|ES_CODIGO_PREFERIDO|I|2||||1|2|(Memo)|||
-SYS_PARAMETRO                           |CODPARAMETRO                            |46|CO|41|1|CO_CC_PARAO|D|1|GER_CENTROCUSTO|NOME|CODCENTROCUSTO|||(Memo)|||
+SYS_PARAMETRO                           |CODPARAMETRO                            |46|CO|41|1|CO_CC_PARAO|D|2|GER_CENTROCUSTO|NOME|CODCENTROCUSTO|||(Memo)|||
 SYS_PARAMETRO                           |CODPARAMETRO                            |47|CO|52|1|CO_FORMA_PG_CC|D|3|GER_FORMAPAGAMENTO|NOME|CODFORMAPAGAMENTO|||(Memo)|||
 SYS_PARAMETRO                           |CODPARAMETRO                            |48|ES|42|1|ES_ALIQUOTA_ST|D|2|EST_ALIQUOTA|NOME|CODALIQUOTA|||(Memo)|||
 SYS_PARAMETRO                           |CODPARAMETRO                            |49|ES|43|1|ES_ETIQ_PROD_ACUM|L|SIM||||||(Memo)|||
 SYS_PARAMETRO                           |CODPARAMETRO                            |50|ES|44|1|ES_PRVENDA_REAJ|L|SIM||||||(Memo)|||
-SYS_PARAMETRO                           |CODPARAMETRO                            |51|ES|45|1|ES_MARKUP_GERAL|R|60||||||(Memo)|||
-SYS_PARAMETRO                           |CODPARAMETRO                            |52|GE|46|1|GE_MASCARA_PVENDA|C|#,##0.00||||||(Memo)|||
+SYS_PARAMETRO                           |CODPARAMETRO                            |51|ES|45|1|ES_MARKUP_GERAL|R|100||||||(Memo)|||
+SYS_PARAMETRO                           |CODPARAMETRO                            |52|GE|46|1|GE_MASCARA_PVENDA|C|#,##0.000||||||(Memo)|||
 SYS_PARAMETRO                           |CODPARAMETRO                            |53|GE|47|1|GE_MASCARA_QTE|C|#0.00||||||(Memo)|||
 SYS_PARAMETRO                           |CODPARAMETRO                            |54|GE|48|1|GE_MASCARA_CODIGO|C|00000||||||(Memo)|||
 SYS_PARAMETRO                           |CODPARAMETRO                            |55|ES|49|1|ES_PRBASE_MARKUP|I|1||||1|3|(Memo)|||
@@ -1263,7 +1278,7 @@ SYS_PARAMETRO                           |CODPARAMETRO                           
 SYS_PARAMETRO                           |CODPARAMETRO                            |60|CO|56|1|CO_BCOGERABOLETA|D|104|CLF_BANCO|NOME|NUMERO|||(Memo)|||
 SYS_PARAMETRO                           |CODPARAMETRO                            |61|CE|55|1|CE_CAMINHOTXTBOLETA|C|c:\caixa\cobcaixa\||||||(Memo)|||
 SYS_PARAMETRO                           |CODPARAMETRO                            |62|CE|57|1|CE_LAYOUTCEF|I|1||||0|3|(Memo)|||
-SYS_PARAMETRO                           |CODPARAMETRO                            |63|GE|58|1|GE_RAMOATIVIDADE|D|15|SYS_RAMOATIVIDADE|NOME|CODRAMOATIVIDADE|||(Memo)|||
+SYS_PARAMETRO                           |CODPARAMETRO                            |63|GE|58|1|GE_RAMOATIVIDADE|D|2|SYS_RAMOATIVIDADE|NOME|CODRAMOATIVIDADE|||(Memo)|||
 SYS_PARAMETRO                           |CODPARAMETRO                            |64|CL|59|1|CL_TELAOUTROSDADOS|L|SIM||||||(Memo)|||
 SYS_PARAMETRO                           |CODPARAMETRO                            |65|CL|60|1|CL_TELARAMOATV|L|SIM||||||(Memo)|||
 SYS_PARAMETRO                           |CODPARAMETRO                            |67|CF|61|1|CF_ENDRESIDENCIAL|D|1|CLF_CLIFORTIPOENDERECO|NOME|CODTIPOENDERECO|||(Memo)|||
@@ -1295,28 +1310,28 @@ SYS_PARAMETRO                           |CODPARAMETRO                           
 SYS_PARAMETRO                           |CODPARAMETRO                            |93|GE|86|1|GE_MASCARA_PC|C|9.9.9.999;0;_|0|_||||(Memo)|||
 SYS_PARAMETRO                           |CODPARAMETRO                            |94|GE|87|1|GE_MASCARA_CC|C|9.9.99;0;_|0|_||||(Memo)|||
 SYS_PARAMETRO                           |CODPARAMETRO                            |95|ES|88|1|ES_NF_SAIDA_SEQ|L|SIM||||||(Memo)|||
-SYS_PARAMETRO                           |CODPARAMETRO                            |96|ES|89|1|ES_CFOP_ENT_DENTRO|D|34|ENS_CFOP|CFOP|CODCFOP|||(Memo)|||
-SYS_PARAMETRO                           |CODPARAMETRO                            |97|ES|90|1|ES_CFOP_ENT_FORA|D|43|ENS_CFOP|CFOP|CODCFOP|||(Memo)|||
-SYS_PARAMETRO                           |CODPARAMETRO                            |98|ES|91|1|ES_CFOP_SAI_DENTRO|D|49|ENS_CFOP|CFOP|CODCFOP|||(Memo)|||
-SYS_PARAMETRO                           |CODPARAMETRO                            |99|ES|92|1|ES_CFOP_SAI_FORA|D|54|ENS_CFOP|CFOP|CODCFOP|||(Memo)|||
+SYS_PARAMETRO                           |CODPARAMETRO                            |96|ES|89|1|ES_CFOP_ENT_DENTRO|D|18|ENS_CFOP|CFOP|CODCFOP|||(Memo)|||
+SYS_PARAMETRO                           |CODPARAMETRO                            |97|ES|90|1|ES_CFOP_ENT_FORA|D|27|ENS_CFOP|CFOP|CODCFOP|||(Memo)|||
+SYS_PARAMETRO                           |CODPARAMETRO                            |98|ES|91|1|ES_CFOP_SAI_DENTRO|D|3|ENS_CFOP|CFOP|CODCFOP|||(Memo)|||
+SYS_PARAMETRO                           |CODPARAMETRO                            |99|ES|92|1|ES_CFOP_SAI_FORA|D|4|ENS_CFOP|CFOP|CODCFOP|||(Memo)|||
 SYS_PARAMETRO                           |CODPARAMETRO                            |100|SF|93|1|SF_CLI_SEM_CONTRATO|D|2|CLF_CATEGORIA|NOME|CODCATEGORIA|||(Memo)|||
-SYS_PARAMETRO                           |CODPARAMETRO                            |101|VE|94|1|VE_EXIBIR_CONSUMO|L|SIM||||||(Memo)|||
-SYS_PARAMETRO                           |CODPARAMETRO                            |102|VE|95|1|VE_EXIBIR_ENTREGA|L|SIM||||||(Memo)|||
+SYS_PARAMETRO                           |CODPARAMETRO                            |101|VE|94|1|VE_EXIBIR_CONSUMO|L|NÃO||||||(Memo)|||
+SYS_PARAMETRO                           |CODPARAMETRO                            |102|VE|95|1|VE_EXIBIR_ENTREGA|L|NÃO||||||(Memo)|||
 SYS_PARAMETRO                           |CODPARAMETRO                            |103|VE|96|1|VE_EXIBIR_ORCAMENTO|L|NÃO||||||(Memo)|||
 SYS_PARAMETRO                           |CODPARAMETRO                            |104|VE|97|1|VE_FUNCAO_OS|C|Mecânico||||||(Memo)|||
-SYS_PARAMETRO                           |CODPARAMETRO                            |105|VE|98|1|VE_CC_MERC_AVULSA|D|1|GER_CENTROCUSTO|NOME|CODCENTROCUSTO|||(Memo)|||
-SYS_PARAMETRO                           |CODPARAMETRO                            |106|VE|100|1|VE_CC_SERV_AVULSO|D|1|GER_CENTROCUSTO|NOME|CODCENTROCUSTO|||(Memo)|||
+SYS_PARAMETRO                           |CODPARAMETRO                            |105|VE|98|1|VE_CC_MERC_AVULSA|D|3|GER_CENTROCUSTO|NOME|CODCENTROCUSTO|||(Memo)|||
+SYS_PARAMETRO                           |CODPARAMETRO                            |106|VE|100|1|VE_CC_SERV_AVULSO|D|4|GER_CENTROCUSTO|NOME|CODCENTROCUSTO|||(Memo)|||
 SYS_PARAMETRO                           |CODPARAMETRO                            |107|VE|101|1|VE_PC_SERV_AVULSO|D|115|GER_PLANOCONTA|NOME|CODPLANOCONTA|||(Memo)|||
 SYS_PARAMETRO                           |CODPARAMETRO                            |108|VE|99|1|VE_PC_MERC_AVULSA|D|13|GER_PLANOCONTA|NOME|CODPLANOCONTA|||(Memo)|||
-SYS_PARAMETRO                           |CODPARAMETRO                            |109|VE|102|1|VE_CLIENTE_AVULSO|D|500570|CLF_CLIFOR|NOME|ID_CLIFOR|||(Memo)|||
+SYS_PARAMETRO                           |CODPARAMETRO                            |109|VE|102|1|VE_CLIENTE_AVULSO|D|1|CLF_CLIFOR|NOME|ID_CLIFOR|||(Memo)|||
 SYS_PARAMETRO                           |CODPARAMETRO                            |110|VE|103|1|VE_DESC_MERC_AVULSA|L|SIM||||||(Memo)|||
-SYS_PARAMETRO                           |CODPARAMETRO                            |111|VE|104|1|VE_MUDANCA_CPAGTO|I|1||||||(Memo)|||
+SYS_PARAMETRO                           |CODPARAMETRO                            |111|VE|104|1|VE_MUDANCA_CPAGTO|I|3||||||(Memo)|||
 SYS_PARAMETRO                           |CODPARAMETRO                            |112|VE|105|1|VE_FORMAPG_ENTRADA|D|1|GER_FORMAPAGAMENTO|NOME|CODFORMAPAGAMENTO|||(Memo)|||
 SYS_PARAMETRO                           |CODPARAMETRO                            |113|VE|106|1|VE_FORMAPG_RESTANTE|D|5|GER_FORMAPAGAMENTO|NOME|CODFORMAPAGAMENTO|||(Memo)|||
 SYS_PARAMETRO                           |CODPARAMETRO                            |114|VE|107|1|VE_TITULO_PC_AVULSA|C|Preço Custo||||||(Memo)|||
-SYS_PARAMETRO                           |CODPARAMETRO                            |115|VE|108|1|VE_ACEITAR_MERC_SC|L|NÃO||||||(Memo)|||
-SYS_PARAMETRO                           |CODPARAMETRO                            |116|VE|109|1|VE_ACEITAR_SERV_SC|L|NÃO||||||(Memo)|||
-SYS_PARAMETRO                           |CODPARAMETRO                            |117|VE|110|1|VE_TITULO_VENDA|C|Nota de Venda||||||(Memo)|||
+SYS_PARAMETRO                           |CODPARAMETRO                            |115|VE|108|1|VE_ACEITAR_MERC_SC|L|SIM||||||(Memo)|||
+SYS_PARAMETRO                           |CODPARAMETRO                            |116|VE|109|1|VE_ACEITAR_SERV_SC|L|SIM||||||(Memo)|||
+SYS_PARAMETRO                           |CODPARAMETRO                            |117|VE|110|1|VE_TITULO_VENDA|C|Nota de Venda/OS||||||(Memo)|||
 SYS_PARAMETRO                           |CODPARAMETRO                            |118|VE|111|1|VE_DATA_NV|I|1||||1|3|(Memo)|||
 SYS_PARAMETRO                           |CODPARAMETRO                            |119|VE|112|1|VE_DATA_OS|I|2||||1|2|(Memo)|||
 SYS_PARAMETRO                           |CODPARAMETRO                            |120|VE|113|1|VE_NUM_NOTA|I|2||||||(Memo)|||
@@ -1324,7 +1339,7 @@ SYS_PARAMETRO                           |CODPARAMETRO                           
 SYS_PARAMETRO                           |CODPARAMETRO                            |122|ES|115|1|ES_TITULO_CPADRAO|C|Cód.Fabricante||||||(Memo)|||
 SYS_PARAMETRO                           |CODPARAMETRO                            |123|ES|116|1|ES_ACERTO_SALDO|D|5|GER_TIPONOTA|NOME|CODTIPONOTA|||(Memo)|||
 SYS_PARAMETRO                           |CODPARAMETRO                            |124|ES|117|1|ES_ACERTO_GRADE|D|7|GER_TIPONOTA|NOME|CODTIPONOTA|||(Memo)|||
-SYS_PARAMETRO                           |CODPARAMETRO                            |125|ES|118|1|ES_TIT_SLD_GRADE|C|Sugestao||||||(Memo)|||
+SYS_PARAMETRO                           |CODPARAMETRO                            |125|ES|118|1|ES_TIT_SLD_GRADE|C|Saldo Grade||||||(Memo)|||
 SYS_PARAMETRO                           |CODPARAMETRO                            |126|DS|119|1|ES_COR_MERC|L|SIM||||||(Memo)|||
 SYS_PARAMETRO                           |CODPARAMETRO                            |127|ES|121|1|ES_ALIQ_PADRAO|D|2|EST_ALIQUOTA|NOME|CODALIQUOTA|||(Memo)|||
 SYS_PARAMETRO                           |CODPARAMETRO                            |128|ES|120|1|ES_CST_PADRAO|D|060|EST_CST|DESCRICAO|CODCST|||(Memo)|||
@@ -1333,16 +1348,16 @@ SYS_PARAMETRO                           |CODPARAMETRO                           
 SYS_PARAMETRO                           |CODPARAMETRO                            |131|VE|124|1|VE_COMISSAO_NM|I|2||||1|3|(Memo)|||
 SYS_PARAMETRO                           |CODPARAMETRO                            |132|VE|125|1|VE_COMISSAO_BC|I|2||||1|2|(Memo)|||
 SYS_PARAMETRO                           |CODPARAMETRO                            |133|VE|126|1|VE_COMISSAO_POR|I|1||||1|4|(Memo)|||
-SYS_PARAMETRO                           |CODPARAMETRO                            |134|VE|127|1|VE_MODELO_NOTA|I|1||||1|3|(Memo)|||
+SYS_PARAMETRO                           |CODPARAMETRO                            |134|VE|127|1|VE_MODELO_NOTA|I|3||||1|3|(Memo)|||
 SYS_PARAMETRO                           |CODPARAMETRO                            |135|VE|128|1|VE_MENSAGEM1|C|Estou ciente e de acordo com o debito acima referido||||||(Memo)|||
 SYS_PARAMETRO                           |CODPARAMETRO                            |136|VE|129|1|VE_MENSAGEM2|C|pode registrar se eu nao pagar.||||||(Memo)|||
-SYS_PARAMETRO                           |CODPARAMETRO                            |137|VE|130|1|VE_MENSAGEM3|C|NAO ACEITAMOS TROCAS OU DEVOLUÇÕES||||||(Memo)|||
+SYS_PARAMETRO                           |CODPARAMETRO                            |137|VE|130|1|VE_MENSAGEM3|C|-||||||(Memo)|||
 SYS_PARAMETRO                           |CODPARAMETRO                            |138|UT|131|1|UT_IMP_LOGOMARCA|L|SIM||||||(Memo)|||
-SYS_PARAMETRO                           |CODPARAMETRO                            |139|UT|132|1|UT_PASTA_LOGOMARCA|P|C:\MINAS_SOFTWARE\IMG\mg seg.bmp||||||(Memo)|||
+SYS_PARAMETRO                           |CODPARAMETRO                            |139|UT|132|1|UT_PASTA_LOGOMARCA|P|img\logo.bmp||||||(Memo)|||
 SYS_PARAMETRO                           |CODPARAMETRO                            |140|VE|133|1|VE_PLANO_AVISTA|D|11|GER_CONDICAOPAGAMENTO|NOME|CODCONDICAOPAGAMENTO|||(Memo)|||
-SYS_PARAMETRO                           |CODPARAMETRO                            |141|VE|134|1|VE_TESTAR_LIMITE|L|SIM||||||(Memo)|||
-SYS_PARAMETRO                           |CODPARAMETRO                            |142|VE|135|1|VE_BLOQUEAR_ATRASO|I|30||||||(Memo)|||
-SYS_PARAMETRO                           |CODPARAMETRO                            |143|VE|136|1|VE_BLOQUEAR_INATIVO|I|1000||||||(Memo)|||
+SYS_PARAMETRO                           |CODPARAMETRO                            |141|VE|134|1|VE_TESTAR_LIMITE|L|NÃO||||||(Memo)|||
+SYS_PARAMETRO                           |CODPARAMETRO                            |142|VE|135|1|VE_BLOQUEAR_ATRASO|I|1||||||(Memo)|||
+SYS_PARAMETRO                           |CODPARAMETRO                            |143|VE|136|1|VE_BLOQUEAR_INATIVO|I|1||||||(Memo)|||
 SYS_PARAMETRO                           |CODPARAMETRO                            |144|VE|137|1|VE_PASSAR_PECAS|I|2||||1|3|(Memo)|||
 SYS_PARAMETRO                           |CODPARAMETRO                            |145|VE|138|1|VE_TIPONOTA_OS|D|14|GER_TIPONOTA|NOME|CODTIPONOTA|||(Memo)|||
 SYS_PARAMETRO                           |CODPARAMETRO                            |146|DP|139|1|DP_CODSALARIO|D|1|USR_PRODESC|NOME|CODPRODESC|||(Memo)|||
@@ -1373,15 +1388,15 @@ SYS_PARAMETRO                           |CODPARAMETRO                           
 SYS_PARAMETRO                           |CODPARAMETRO                            |172|ES|163|1|ES_PRECO_F6|D|11|GER_CONDICAOPAGAMENTO|NOME|CODCONDICAOPAGAMENTO|||(Memo)|||
 SYS_PARAMETRO                           |CODPARAMETRO                            |173|EM|164|1|EM_CODFAB_ETIQMERC|L|SIM||||||(Memo)|||
 SYS_PARAMETRO                           |CODPARAMETRO                            |174|EM|165|1|EM_VALOR_ETIQMERC|I|2||||1|2|(Memo)|||
-SYS_PARAMETRO                           |CODPARAMETRO                            |175|EC|167|1|EC_PASTA_IMPORTA_CF|C|c:\chart\pdv||||||(Memo)|||
-SYS_PARAMETRO                           |CODPARAMETRO                            |176|EC|166|1|EC_PASTA_EXPORTA_CF|C|c:||||||(Memo)|||
-SYS_PARAMETRO                           |CODPARAMETRO                            |177|EC|169|1|EC_CFOP_IMPORTA_CF|D|290|ENS_CFOP|CFOP|CODCFOP|||(Memo)|||
-SYS_PARAMETRO                           |CODPARAMETRO                            |178|EC|170|1|EC_TIPONT_IMPORTA_CF|D|29|GER_TIPONOTA|NOME|CODTIPONOTA|||(Memo)|||
+SYS_PARAMETRO                           |CODPARAMETRO                            |175|EC|167|1|EC_PASTA_IMPORTA_CF|C|\\Fiscal\chart\PDV||||||(Memo)|||
+SYS_PARAMETRO                           |CODPARAMETRO                            |176|EC|166|1|EC_PASTA_EXPORTA_CF|C|\\Fiscal\chart\PDV||||||(Memo)|||
+SYS_PARAMETRO                           |CODPARAMETRO                            |177|EC|169|1|EC_CFOP_IMPORTA_CF|D|3|ENS_CFOP|CFOP|CODCFOP|||(Memo)|||
+SYS_PARAMETRO                           |CODPARAMETRO                            |178|EC|170|1|EC_TIPONT_IMPORTA_CF|D|10|GER_TIPONOTA|NOME|CODTIPONOTA|||(Memo)|||
 SYS_PARAMETRO                           |CODPARAMETRO                            |179|GE|168|1|GE_USA_ECF|L|SIM||||||(Memo)|||
 SYS_PARAMETRO                           |CODPARAMETRO                            |180|GE|171|1|GE_DESCRICAO_MERC_NF|L|NÃO||||||(Memo)|||
 SYS_PARAMETRO                           |CODPARAMETRO                            |181|ES|172|1|ES_OBS_NF_1|C|EMPRESA OPTANTE PELO SIMPLES NACIONAL||||||(Memo)|||
-SYS_PARAMETRO                           |CODPARAMETRO                            |182|ES|173|1|ES_OBS_NF_2|C|NÃO GERA DIREITO À CREDITO FISCAL DE ICMS PRAÇA COBRANÇA IPATINGA / MG||||||(Memo)|||
-SYS_PARAMETRO                           |CODPARAMETRO                            |183|ES|174|1|ES_CAPTURAR_MERC|L|SIM||||||(Memo)|||
+SYS_PARAMETRO                           |CODPARAMETRO                            |182|ES|173|1|ES_OBS_NF_2|C|NÃO GERA DIREITO À CREDITO FISCAL DE ICMS||||||(Memo)|||
+SYS_PARAMETRO                           |CODPARAMETRO                            |183|ES|174|1|ES_CAPTURAR_MERC|L|NÃO||||||(Memo)|||
 SYS_PARAMETRO                           |CODPARAMETRO                            |184|VE|175|1|VE_VER_COMPRADOR|I|1||||1|2|(Memo)|||
 SYS_PARAMETRO                           |CODPARAMETRO                            |185|GE|176|1|GE_TRABALHA_REQ|L|SIM||||||(Memo)|||
 SYS_PARAMETRO                           |CODPARAMETRO                            |186|VE|177|1|VE_TIPONOTA_DEVOL|D|12|GER_TIPONOTA|NOME|CODTIPONOTA|||(Memo)|||
@@ -1394,24 +1409,24 @@ SYS_PARAMETRO                           |CODPARAMETRO                           
 SYS_PARAMETRO                           |CODPARAMETRO                            |193|EM|183|1|EM_PORTA_ETIQMERC|C|LPT1||||||(Memo)|||
 SYS_PARAMETRO                           |CODPARAMETRO                            |194|EM|184|1|EM_COLUNA_ETIQMERC|I|2||||1|5|(Memo)|||
 SYS_PARAMETRO                           |CODPARAMETRO                            |195|CO|185|1|CO_CLASSIF_PADRAO|D|1|CNT_CLASSIFICACAO|NOME|CODCLASSIFICACAO|||(Memo)|||
-SYS_PARAMETRO                           |CODPARAMETRO                            |196|EC|186|1|EC_RELACAO_ECF|C|C2||||||(Memo)|||
+SYS_PARAMETRO                           |CODPARAMETRO                            |196|EC|186|1|EC_RELACAO_ECF|C|C1||||||(Memo)|||
 SYS_PARAMETRO                           |CODPARAMETRO                            |197|ES|187|1|ES_NF_CANCELADA|D|11|GER_TIPONOTA|NOME|CODTIPONOTA|||(Memo)|||
 SYS_PARAMETRO                           |CODPARAMETRO                            |198|CO|189|1|CO_COMPL_NUMDUP|C|/07||||||(Memo)|||
-SYS_PARAMETRO                           |CODPARAMETRO                            |199|CO|190|1|CO_ALT_NUM_CT_QUIT|L|NÃO||||||(Memo)|||
+SYS_PARAMETRO                           |CODPARAMETRO                            |199|CO|190|1|CO_ALT_NUM_CT_QUIT|L|SIM||||||(Memo)|||
 SYS_PARAMETRO                           |CODPARAMETRO                            |200|VE|191|1|VE_TRABALHA_ORCTO|L|SIM||||||(Memo)|||
 SYS_PARAMETRO                           |CODPARAMETRO                            |201|VE|192|1|VE_PORTA_REQ|C|LPT1||||||(Memo)|||
 SYS_PARAMETRO                           |CODPARAMETRO                            |202|VE|193|1|VE_NOTACREDITO|D|7|GER_TIPODOCUMENTO|NOME|CODTIPODOCUMENTO|||(Memo)|||
 SYS_PARAMETRO                           |CODPARAMETRO                            |203|ES|194|1|ES_BUSCA_ADICIONAL|C|CÓDIGO FORNECEDOR||||||(Memo)|||
-SYS_PARAMETRO                           |CODPARAMETRO                            |204|ES|195|1|ES_ATU_CUSTO|L|SIM||||||(Memo)|||
+SYS_PARAMETRO                           |CODPARAMETRO                            |204|ES|195|1|ES_ATU_CUSTO|L|NÃO||||||(Memo)|||
 SYS_PARAMETRO                           |CODPARAMETRO                            |205|VE|196|1|VE_TIPONOTA_RAPIDA|D|6|GER_TIPONOTA|NOME|CODTIPONOTA|||(Memo)|||
-SYS_PARAMETRO                           |CODPARAMETRO                            |206|VE|197|1|VE_DESC_MAX_MERC|R|10||||0|100|(Memo)|||
+SYS_PARAMETRO                           |CODPARAMETRO                            |206|VE|197|1|VE_DESC_MAX_MERC|R|5||||0|100|(Memo)|||
 SYS_PARAMETRO                           |CODPARAMETRO                            |207|VE|198|1|VE_DESC_MAX_SERV|R|0||||0|100|(Memo)|||
 SYS_PARAMETRO                           |CODPARAMETRO                            |208|GE|199|1|GE_USA_VENDA_RAPIDA|L|SIM||||||(Memo)|||
 SYS_PARAMETRO                           |CODPARAMETRO                            |209|VE|200|1|VE_ASS_VEN_NV|L|SIM||||||(Memo)|||
 SYS_PARAMETRO                           |CODPARAMETRO                            |210|VE|201|1|VE_SAIR_JUROS_NV|L|SIM||||||(Memo)|||
-SYS_PARAMETRO                           |CODPARAMETRO                            |211|VE|202|1|VE_SALVA_FATURA|L|SIM||||||(Memo)|||
-SYS_PARAMETRO                           |CODPARAMETRO                            |212|ES|203|1|ES_ACESSA_ATU_CUSTO|L|SIM||||||(Memo)|||
-SYS_PARAMETRO                           |CODPARAMETRO                            |213|VE|204|1|VE_FATURA_VRAPIDA|L|NÃO||||||(Memo)|||
+SYS_PARAMETRO                           |CODPARAMETRO                            |211|VE|202|1|VE_SALVA_FATURA|L|NÃO||||||(Memo)|||
+SYS_PARAMETRO                           |CODPARAMETRO                            |212|ES|203|1|ES_ACESSA_ATU_CUSTO|L|NÃO||||||(Memo)|||
+SYS_PARAMETRO                           |CODPARAMETRO                            |213|VE|204|1|VE_FATURA_VRAPIDA|L|SIM||||||(Memo)|||
 SYS_PARAMETRO                           |CODPARAMETRO                            |214|VE|205|1|VE_QUANT_VRAPIDA|L|SIM||||||(Memo)|||
 SYS_PARAMETRO                           |CODPARAMETRO                            |215|VE|206|1|VE_TIPOORC_RAPIDA|D|4|GER_TIPONOTA|NOME|CODTIPONOTA|||(Memo)|||
 SYS_PARAMETRO                           |CODPARAMETRO                            |216|VE|207|1|VE_FORMA_DINHEIRO|D|1|GER_FORMAPAGAMENTO|NOME|CODFORMAPAGAMENTO|||(Memo)|||
@@ -1419,12 +1434,12 @@ SYS_PARAMETRO                           |CODPARAMETRO                           
 SYS_PARAMETRO                           |CODPARAMETRO                            |218|VE|209|1|VE_FORMA_CREDIARIO|D|5|GER_FORMAPAGAMENTO|NOME|CODFORMAPAGAMENTO|||(Memo)|||
 SYS_PARAMETRO                           |CODPARAMETRO                            |219|VE|210|1|VE_FOCO_FECHA_NF|I|2||||1|2|(Memo)|||
 SYS_PARAMETRO                           |CODPARAMETRO                            |220|VE|211|1|VE_FOCO_PREFERIDO|I|2||||1|2|(Memo)|||
-SYS_PARAMETRO                           |CODPARAMETRO                            |221|VE|212|1|VE_IMPRIME_FATURA|L|SIM||||||(Memo)|||
+SYS_PARAMETRO                           |CODPARAMETRO                            |221|VE|212|1|VE_IMPRIME_FATURA|L|NÃO||||||(Memo)|||
 SYS_PARAMETRO                           |CODPARAMETRO                            |222|VE|213|1|VE_ATIVAR_NO_DIA|L|NÃO||||||(Memo)|||
 SYS_PARAMETRO                           |CODPARAMETRO                            |223|VE|214|1|VE_PORTA_CUPOM|C|LPT1||||||(Memo)|||
 SYS_PARAMETRO                           |CODPARAMETRO                            |224|VE|215|1|VE_SAIR_FAB_CUPOM|L|SIM||||||(Memo)|||
 SYS_PARAMETRO                           |CODPARAMETRO                            |225|VE|216|1|VE_COMPRADOR_VRAPIDA|I|1||||1|3|(Memo)|||
-SYS_PARAMETRO                           |CODPARAMETRO                            |226|CO|217|1|CO_IMPRESSAO_RECIBO|I|2||||1|5|(Memo)|||
+SYS_PARAMETRO                           |CODPARAMETRO                            |226|CO|217|1|CO_IMPRESSAO_RECIBO|I|1||||1|5|(Memo)|||
 SYS_PARAMETRO                           |CODPARAMETRO                            |227|VE|218|1|VE_NOTA_POR_PARCELA|L|NÃO||||||(Memo)|||
 SYS_PARAMETRO                           |CODPARAMETRO                            |228|VE|219|1|VE_CHECA_CONTAS|I|1||||1|3|(Memo)|||
 SYS_PARAMETRO                           |CODPARAMETRO                            |229|VE|220|1|VE_OBS_CLIENTE|L|SIM||||||(Memo)|||
@@ -1434,7 +1449,7 @@ SYS_PARAMETRO                           |CODPARAMETRO                           
 SYS_PARAMETRO                           |CODPARAMETRO                            |233|VE|224|1|VE_SAIR_ASS_AVISTA|L|NÃO||||||(Memo)|||
 SYS_PARAMETRO                           |CODPARAMETRO                            |234|VE|225|1|VE_SAIR_MSG_AVISTA|L|NÃO||||||(Memo)|||
 SYS_PARAMETRO                           |CODPARAMETRO                            |235|ES|226|1|ES_TIPOLAN_GRADE|I|2||||1|2|(Memo)|||
-SYS_PARAMETRO                           |CODPARAMETRO                            |236|UT|227|1|UT_TIPO_SENHA|I|1||||1|3|(Memo)|||
+SYS_PARAMETRO                           |CODPARAMETRO                            |236|UT|227|1|UT_TIPO_SENHA|I|2||||1|3|(Memo)|||
 SYS_PARAMETRO                           |CODPARAMETRO                            |237|VE|228|1|VE_REQ_AUTO_QTE|L|SIM||||||(Memo)|||
 SYS_PARAMETRO                           |CODPARAMETRO                            |238|VE|229|1|VE_REQ_AUTO_PRC|L|SIM||||||(Memo)|||
 SYS_PARAMETRO                           |CODPARAMETRO                            |239|VE|230|1|VE_INIBE_MSG_EST_NEG|L|NÃO||||||(Memo)|||
@@ -1447,8 +1462,8 @@ SYS_PARAMETRO                           |CODPARAMETRO                           
 SYS_PARAMETRO                           |CODPARAMETRO                            |247|ES|236|1|ES_CFOP_ST_DENTRO|D|20|ENS_CFOP|CFOP|CODCFOP|||(Memo)|14/03/2008|0|
 SYS_PARAMETRO                           |CODPARAMETRO                            |248|VE|238|1|VE_PEDIR_DESCONTO|L|NÃO||||||(Memo)|20/03/2008|NÃO|
 SYS_PARAMETRO                           |CODPARAMETRO                            |249|VE|239|1|VE_INIBIR_LIM_CAT|D|99|CLF_CATEGORIA|NOME|CODCATEGORIA|||(Memo)|31/03/2008|0|
-SYS_PARAMETRO                           |CODPARAMETRO                            |250|VE|240|1|VE_BLOQUEAR_CAT|D|4|CLF_CATEGORIA|NOME|CODCATEGORIA|||(Memo)|31/03/2008|0|
-SYS_PARAMETRO                           |CODPARAMETRO                            |251|VE|241|1|VE_PLANO_NV|D|11|GER_CONDICAOPAGAMENTO|NOME|CODCONDICAOPAGAMENTO|||(Memo)|31/03/2008|0|
+SYS_PARAMETRO                           |CODPARAMETRO                            |250|VE|240|1|VE_BLOQUEAR_CAT|D|3|CLF_CATEGORIA|NOME|CODCATEGORIA|||(Memo)|31/03/2008|0|
+SYS_PARAMETRO                           |CODPARAMETRO                            |251|VE|241|1|VE_PLANO_NV|D|13|GER_CONDICAOPAGAMENTO|NOME|CODCONDICAOPAGAMENTO|||(Memo)|31/03/2008|0|
 SYS_PARAMETRO                           |CODPARAMETRO                            |252|ES|242|1|ES_SERVICO_MOTOR|L|NÃO||||||(Memo)|02/04/2008|NÃO|
 SYS_PARAMETRO                           |CODPARAMETRO                            |253|EC|243|1|EC_CODIGO_PREFERIDO|I|1||||1|4|(Memo)|23/04/2008|99|
 SYS_PARAMETRO                           |CODPARAMETRO                            |254|GE|244|1|GE_MOD_GERENCIAL|L|NÃO||||||(Memo)|26/04/2008|NÃO|
@@ -1459,7 +1474,7 @@ SYS_PARAMETRO                           |CODPARAMETRO                           
 SYS_PARAMETRO                           |CODPARAMETRO                            |259|ES|249|1|ES_SERVICO_DENTRO|D|2|ENS_CFOP|CFOP|CODCFOP|||(Memo)|05/05/2008||
 SYS_PARAMETRO                           |CODPARAMETRO                            |260|ES|250|1|ES_SERVICO_FORA|D|2|ENS_CFOP|CFOP|CODCFOP|||(Memo)|05/05/2008||
 SYS_PARAMETRO                           |CODPARAMETRO                            |261|VE|251|1|VE_ACEITA_CH_SC|L|NÃO||||||(Memo)|05/05/2008|NÃO|
-SYS_PARAMETRO                           |CODPARAMETRO                            |262|VE|252|1|VE_CLIENTE_CH_SC|D|500394|CLF_CLIFOR|NOME|ID_CLIFOR|||(Memo)|05/05/2008|0|
+SYS_PARAMETRO                           |CODPARAMETRO                            |262|VE|252|1|VE_CLIENTE_CH_SC|D|0|CLF_CLIFOR|NOME|ID_CLIFOR|||(Memo)|05/05/2008|0|
 SYS_PARAMETRO                           |CODPARAMETRO                            |263|ES|253|1|ES_DESC_AUTO_NF|L|NÃO||||||(Memo)|06/05/2008|NÃO|
 SYS_PARAMETRO                           |CODPARAMETRO                            |264|EM|254|1|EM_MOD_MATRIC_ETIQ|I|1||||1|5|(Memo)|09/05/2008|1|
 SYS_PARAMETRO                           |CODPARAMETRO                            |265|EM|255|1|EM_TIPO_COD_ORIGINAL|D|99|EST_TIPOCODIGOMERCADORIA|NOME|CODTIPOCODIGOMERCADORIA|||(Memo)|09/05/2008|99|
@@ -1490,7 +1505,7 @@ SYS_PARAMETRO                           |CODPARAMETRO                           
 SYS_PARAMETRO                           |CODPARAMETRO                            |290|VE|281|1|VE_PARC_NV|L|NÃO||||||(Memo)|06/08/2008|NÃO|
 SYS_PARAMETRO                           |CODPARAMETRO                            |291|ES|282|1|ES_REF_PADRAO|D|2|EST_TIPOCODIGOMERCADORIA|NOME|CODTIPOCODIGOMERCADORIA|||(Memo)|06/08/2008|2|
 SYS_PARAMETRO                           |CODPARAMETRO                            |292|ES|283|1|ES_ITENS_ORDEM_LANC|L|SIM||||||(Memo)|06/08/2008|SIM|
-SYS_PARAMETRO                           |CODPARAMETRO                            |293|UT|284|1|UT_PAPEL_PADRAO|I|2||||1|2|(Memo)|11/08/2008|1|
+SYS_PARAMETRO                           |CODPARAMETRO                            |293|UT|284|1|UT_PAPEL_PADRAO|I|1||||1|2|(Memo)|11/08/2008|1|
 SYS_PARAMETRO                           |CODPARAMETRO                            |294|VE|285|1|VE_TIPO_NAOTESTAR|D|99|GER_TIPONOTA|NOME|CODTIPONOTA|||(Memo)|13/08/2008|99|
 SYS_PARAMETRO                           |CODPARAMETRO                            |295|CO|286|1|CO_ACEITAR_BX_SPC|L|NÃO||||||(Memo)|20/08/2008|NÃO|
 SYS_PARAMETRO                           |CODPARAMETRO                            |296|CL|287|1|CL_FC_LINHA1|C|OBS1||||||(Memo)|20/08/2008||
@@ -1502,8 +1517,8 @@ SYS_PARAMETRO                           |CODPARAMETRO                           
 SYS_PARAMETRO                           |CODPARAMETRO                            |302|EC|293|1|EC_TIPO_PRECO_ECF|I|1||||||(Memo)|11/09/2008|1|
 SYS_PARAMETRO                           |CODPARAMETRO                            |303|EC|294|1|EC_BASE_PRECO_ECF|I|1||||||(Memo)|11/09/2008|1|
 SYS_PARAMETRO                           |CODPARAMETRO                            |304|GE|295|1|GE_MASCARA_PCOMPRA|C|#,##0.00||||||(Memo)|15/09/2008|#,##0.00|
-SYS_PARAMETRO                           |CODPARAMETRO                            |305|VE|296|1|VE_ACEITA_CT_SC|L|SIM||||||(Memo)|22/09/2008|NÃO|
-SYS_PARAMETRO                           |CODPARAMETRO                            |306|VE|297|1|VE_CLIENTE_CT_SC|D|500394|CLF_CLIFOR|NOME|ID_CLIFOR|||(Memo)|22/09/2008|-1|
+SYS_PARAMETRO                           |CODPARAMETRO                            |305|VE|296|1|VE_ACEITA_CT_SC|L|NÃO||||||(Memo)|22/09/2008|NÃO|
+SYS_PARAMETRO                           |CODPARAMETRO                            |306|VE|297|1|VE_CLIENTE_CT_SC|D|-1|CLF_CLIFOR|NOME|ID_CLIFOR|||(Memo)|22/09/2008|-1|
 SYS_PARAMETRO                           |CODPARAMETRO                            |307|VE|298|1|VE_FAT_CONSIGNADA|L|NÃO||||||(Memo)|22/09/2008|NÃO|
 SYS_PARAMETRO                           |CODPARAMETRO                            |308|VE|299|1|VE_ATIVA_FECH_DIA|L|NÃO||||||(Memo)|22/09/2008|NÃO|
 SYS_PARAMETRO                           |CODPARAMETRO                            |309|VE|300|1|VE_TESTAR_JAFOI|L|NÃO||||||(Memo)|24/09/2008|NÃO|
@@ -1513,9 +1528,9 @@ SYS_PARAMETRO                           |CODPARAMETRO                           
 SYS_PARAMETRO                           |CODPARAMETRO                            |313|EM|304|1|EM_MARGEM_INFERIOR|I|0||||||(Memo)|29/09/2008|0|
 SYS_PARAMETRO                           |CODPARAMETRO                            |314|MT|305|1|MT_TIPODOC_PADRAO|D|-1|GER_TIPODOCUMENTO|NOME|CODTIPODOCUMENTO|||(Memo)|01/10/2008|-1|
 SYS_PARAMETRO                           |CODPARAMETRO                            |315|MT|308|1|MT_PC_PADRAO_EXAME|D|-1|GER_PLANOCONTA|NOME|CODPLANOCONTA|||(Memo)|01/10/2008|-1|
-SYS_PARAMETRO                           |CODPARAMETRO                            |316|MT|309|1|MT_CC_PADRAO_EXAME|D|1|GER_CENTROCUSTO|NOME|CODCENTROCUSTO|||(Memo)|01/10/2008|-1|
+SYS_PARAMETRO                           |CODPARAMETRO                            |316|MT|309|1|MT_CC_PADRAO_EXAME|D|-1|GER_CENTROCUSTO|NOME|CODCENTROCUSTO|||(Memo)|01/10/2008|-1|
 SYS_PARAMETRO                           |CODPARAMETRO                            |317|CO|312|1|CO_ACEITA_COBAVULSA|L|NÃO||||||(Memo)|01/10/2008|NÃO|
-SYS_PARAMETRO                           |CODPARAMETRO                            |318|MT|307|1|MT_CC_PADRAO_MENSAL|D|1|GER_CENTROCUSTO|NOME|CODCENTROCUSTO|||(Memo)|01/10/2008|-1|
+SYS_PARAMETRO                           |CODPARAMETRO                            |318|MT|307|1|MT_CC_PADRAO_MENSAL|D|-1|GER_CENTROCUSTO|NOME|CODCENTROCUSTO|||(Memo)|01/10/2008|-1|
 SYS_PARAMETRO                           |CODPARAMETRO                            |319|MT|310|1|MT_PASTA_TXT|P|C:\||||||(Memo)|01/10/2008|C:\|
 SYS_PARAMETRO                           |CODPARAMETRO                            |320|DS|311|1|MT_VALOR_COMISSAO|I|1||||1|2|(Memo)|03/10/2008|1|
 SYS_PARAMETRO                           |CODPARAMETRO                            |321|CO|313|1|CO_CAB_CARTA1|C|CABECALHO1||||||(Memo)|06/10/2008|CABECALHO1|
@@ -1525,7 +1540,7 @@ SYS_PARAMETRO                           |CODPARAMETRO                           
 SYS_PARAMETRO                           |CODPARAMETRO                            |325|VE|317|1|VE_NOTA_NAOTESTAR|D|-1|GER_TIPONOTA|NOME|CODTIPONOTA|||(Memo)|08/10/2008|-1|
 SYS_PARAMETRO                           |CODPARAMETRO                            |326|VE|232|1|VE_TIPO_IMP_REQ|I|1||||1|3|(Memo)|24/10/2008|1|
 SYS_PARAMETRO                           |CODPARAMETRO                            |327|EC|318|1|EC_ECF_PADRAO|D|-1|ECF_IMPRESSORA|NUMERO_SERIE_ECF|CODECF|||(Memo)|30/10/2008|-1|
-SYS_PARAMETRO                           |CODPARAMETRO                            |328|VE|270|1|VE_FORMA_CARTAO|D|3|GER_FORMAPAGAMENTO|NOME|CODFORMAPAGAMENTO|||(Memo)|30/10/2008|-1|
+SYS_PARAMETRO                           |CODPARAMETRO                            |328|VE|270|1|VE_FORMA_CARTAO|D|-1|GER_FORMAPAGAMENTO|NOME|CODFORMAPAGAMENTO|||(Memo)|30/10/2008|-1|
 SYS_PARAMETRO                           |CODPARAMETRO                            |329|VE|319|1|VE_FECHAR_ZERADA|L|NÃO||||||(Memo)|03/11/2008|NÃO|
 SYS_PARAMETRO                           |CODPARAMETRO                            |330|BB|55|1|BB_CAMINHOTXTBOLETA|C|C:\||||||(Memo)|06/11/2008|C:\|
 SYS_PARAMETRO                           |CODPARAMETRO                            |331|BB||1|BB_|C|||||||(Memo)|06/11/2008||
@@ -1546,14 +1561,14 @@ SYS_PARAMETRO                           |CODPARAMETRO                           
 SYS_PARAMETRO                           |CODPARAMETRO                            |346|MT|333|1|MT_PC_CURSO|D|-1|GER_PLANOCONTA|NOME|CODPLANOCONTA|||(Memo)|07/11/2008|-1|
 SYS_PARAMETRO                           |CODPARAMETRO                            |347|MT|334|1|MT_PC_MEDICAO|D|-1|GER_PLANOCONTA|NOME|CODPLANOCONTA|||(Memo)|07/11/2008|-1|
 SYS_PARAMETRO                           |CODPARAMETRO                            |348|MT|335|1|MT_ENGENHEIRO|D|-1|USR_FUNCIONARIO|NOME|ID_FUNCIONARIO|||(Memo)|07/11/2008|-1|
-SYS_PARAMETRO                           |CODPARAMETRO                            |349|CL|336|1|CL_PASTA_IMAGEM|C|C:\DOCUMENTOS CLIENTES||||||(Memo)|05/12/2008||
+SYS_PARAMETRO                           |CODPARAMETRO                            |349|CL|336|1|CL_PASTA_IMAGEM|C|\\Servplan\meusdoc\FOTOS DE VISTORIAS||||||(Memo)|05/12/2008||
 SYS_PARAMETRO                           |CODPARAMETRO                            |350|VE|337|1|VE_IMG_CLIENTE|L|SIM||||||(Memo)|05/12/2008|SIM|
-SYS_PARAMETRO                           |CODPARAMETRO                            |351|UT|338|1|UT_PASTA_LOGOMARCAG|P|C:\MINAS_SOFTWARE\IMG\MG Seg Grande.bmp||||||(Memo)|16/12/2008|IMG\LOGOG.BMP|
+SYS_PARAMETRO                           |CODPARAMETRO                            |351|UT|338|1|UT_PASTA_LOGOMARCAG|P|IMG\LOGOG.BMP||||||(Memo)|16/12/2008|IMG\LOGOG.BMP|
 SYS_PARAMETRO                           |CODPARAMETRO                            |352|UT|339|1|UT_TIPO_LOGOMARCA|I|1||||1|2|(Memo)|16/12/2008|1|
-SYS_PARAMETRO                           |CODPARAMETRO                            |353|VE|340|1|VE_IMPOBS_NT_ATIVA|L|SIM||||||(Memo)|16/12/2008|NÃO|
+SYS_PARAMETRO                           |CODPARAMETRO                            |353|VE|340|1|VE_IMPOBS_NT_ATIVA|L|NÃO||||||(Memo)|16/12/2008|NÃO|
 SYS_PARAMETRO                           |CODPARAMETRO                            |354|VE|341|1|VE_TIPOLAN_NUMDIF|D|-1|GER_TIPONOTA|NOME|CODTIPONOTA|||(Memo)|16/12/2008|-1|
 SYS_PARAMETRO                           |CODPARAMETRO                            |355|ES|342|1|ES_TESTA_LOC|L|SIM||||||(Memo)|22/12/2008|SIM|
-SYS_PARAMETRO                           |CODPARAMETRO                            |356|VE|343|1|VE_TAM_NV_JTINTA|I|1||||1|3|(Memo)|23/12/2008|2|
+SYS_PARAMETRO                           |CODPARAMETRO                            |356|VE|343|1|VE_TAM_NV_JTINTA|I|2||||1|3|(Memo)|23/12/2008|2|
 SYS_PARAMETRO                           |CODPARAMETRO                            |357|CP|344|29|CP_TAM_LOGOMARCA|I|1||||1|2|(Memo)|03/01/2009|1|
 SYS_PARAMETRO                           |CODPARAMETRO                            |358|CP|345|29|CP_PASTA_LOGOMARCA|P|C:\||||||(Memo)|03/01/2009|C:\|
 SYS_PARAMETRO                           |CODPARAMETRO                            |359|CP|346|29|CP_TIPO_CLIENTE|C|ASSOCIADO||||||(Memo)|03/01/2009|ASSOCIADO|
@@ -1577,11 +1592,11 @@ SYS_PARAMETRO                           |CODPARAMETRO                           
 SYS_PARAMETRO                           |CODPARAMETRO                            |377|CP|355|1|CP_COTA_ARREDONDA|I|1||||1|4|(Memo)|06/01/2009|1|
 SYS_PARAMETRO                           |CODPARAMETRO                            |378|CP|336|1|CP_PASTA_IMAGEM|P|SINISTRO-IMG||||||(Memo)|07/01/2009|SINISTRO-IMG|
 SYS_PARAMETRO                           |CODPARAMETRO                            |379|CP|356|1|CP_PC_SINISTRO|D|-1|GER_PLANOCONTA|NOME|CODPLANOCONTA|||(Memo)|08/01/2009|-1|
-SYS_PARAMETRO                           |CODPARAMETRO                            |380|CP|357|1|CP_CC_SINISTRO|D|1|GER_CENTROCUSTO|NOME|CODCENTROCUSTO|||(Memo)|08/01/2009|-1|
+SYS_PARAMETRO                           |CODPARAMETRO                            |380|CP|357|1|CP_CC_SINISTRO|D|-1|GER_CENTROCUSTO|NOME|CODCENTROCUSTO|||(Memo)|08/01/2009|-1|
 SYS_PARAMETRO                           |CODPARAMETRO                            |381|CP|358|1|CP_PC_FRESERVA|D|-1|GER_PLANOCONTA|NOME|CODPLANOCONTA|||(Memo)|08/01/2009|-1|
-SYS_PARAMETRO                           |CODPARAMETRO                            |382|CP|359|1|CP_CC_FRESERVA|D|1|GER_CENTROCUSTO|NOME|CODCENTROCUSTO|||(Memo)|08/01/2009|-1|
-SYS_PARAMETRO                           |CODPARAMETRO                            |383|CL|360|1|CL_CATCLI_INATIVO|D|3|CLF_CATEGORIA|NOME|CODCATEGORIA|||(Memo)|09/01/2009|-1|
-SYS_PARAMETRO                           |CODPARAMETRO                            |384|CO|361|1|CO_CHECAR_DTPG|L|SIM||||||(Memo)|12/01/2009|NÃO|
+SYS_PARAMETRO                           |CODPARAMETRO                            |382|CP|359|1|CP_CC_FRESERVA|D|-1|GER_CENTROCUSTO|NOME|CODCENTROCUSTO|||(Memo)|08/01/2009|-1|
+SYS_PARAMETRO                           |CODPARAMETRO                            |383|CL|360|1|CL_CATCLI_INATIVO|D|-1|CLF_CATEGORIA|NOME|CODCATEGORIA|||(Memo)|09/01/2009|-1|
+SYS_PARAMETRO                           |CODPARAMETRO                            |384|CO|361|1|CO_CHECAR_DTPG|L|NÃO||||||(Memo)|12/01/2009|NÃO|
 SYS_PARAMETRO                           |CODPARAMETRO                            |385|BD|362|1|BD_PASTA_RETORNO|P|C:\||||||(Memo)|12/01/2009|C:\|
 SYS_PARAMETRO                           |CODPARAMETRO                            |386|BD|363|1|BD_HIS_COBRANCA|C|CRÉDITO COBRANÇA||||||(Memo)|13/01/2009|CRÉDITO COBRANÇA|
 SYS_PARAMETRO                           |CODPARAMETRO                            |387|BD|364|1|BD_CXA_COBRANCA|D|-1|CXA_CAIXA|NOME|CODCAIXA|||(Memo)|13/01/2009|-1|
@@ -1589,7 +1604,7 @@ SYS_PARAMETRO                           |CODPARAMETRO                           
 SYS_PARAMETRO                           |CODPARAMETRO                            |389|CO|366|1|CO_DOC_CARTORIO|D|-1|GER_TIPODOCUMENTO|NOME|CODTIPODOCUMENTO|||(Memo)|14/01/2009|-1|
 SYS_PARAMETRO                           |CODPARAMETRO                            |390|CO|367|1|CO_PC_CARTORIO|D|-1|GER_PLANOCONTA|NOME|CODPLANOCONTA|||(Memo)|14/01/2009|-1|
 SYS_PARAMETRO                           |CODPARAMETRO                            |391|CO|368|1|CO_LOC_CARTORIO|D|-1|CLF_BANCO|NOME|CODBANCO|||(Memo)|14/01/2009|-1|
-SYS_PARAMETRO                           |CODPARAMETRO                            |392|VE|369|1|VE_CHECARPRECO_MC|L|SIM||||||(Memo)|22/01/2009|SIM|
+SYS_PARAMETRO                           |CODPARAMETRO                            |392|VE|369|1|VE_CHECARPRECO_MC|L|NÃO||||||(Memo)|22/01/2009|SIM|
 SYS_PARAMETRO                           |CODPARAMETRO                            |393|CO|370|1|CO_PORTA_CARNE|C|LPT1||||||(Memo)|22/01/2009|LPT1|
 SYS_PARAMETRO                           |CODPARAMETRO                            |394|CO|371|1|CO_TOPO_CARNE|I|0||||0|3|(Memo)|22/01/2009|0|
 SYS_PARAMETRO                           |CODPARAMETRO                            |395|ES|372|1|ES_NOTA_EMPRESTIMO|D|-1|GER_TIPONOTA|NOME|CODTIPONOTA|||(Memo)|22/01/2009|-1|
@@ -1615,23 +1630,23 @@ SYS_PARAMETRO                           |CODPARAMETRO                           
 SYS_PARAMETRO                           |CODPARAMETRO                            |416|VE|393|1|VE_INTERVALO_APO|I|5||||||(Memo)|25/02/2009|5|
 SYS_PARAMETRO                           |CODPARAMETRO                            |417|VE|394|1|VE_DADOSCLI_NV|I|1||||||(Memo)|27/02/2009|1|
 SYS_PARAMETRO                           |CODPARAMETRO                            |418|CX|395|1|CX_HIST_AGRU_CARTAO|C|CRÉDITO CARTÃO||||||(Memo)|04/03/2009||
-SYS_PARAMETRO                           |CODPARAMETRO                            |419|CX|396|1|CX_FORMA_AGRU_CRD|D|3|GER_FORMAPAGAMENTO|NOME|CODFORMAPAGAMENTO|||(Memo)|04/03/2009|-1|
-SYS_PARAMETRO                           |CODPARAMETRO                            |420|CX|397|1|CX_FORMA_AGRU_DEB|D|4|GER_FORMAPAGAMENTO|NOME|CODFORMAPAGAMENTO|||(Memo)|04/03/2009|-1|
-SYS_PARAMETRO                           |CODPARAMETRO                            |421|ES|398|1|ES_TIPO_NF_SAIDA|D|1|GER_TIPONOTA|NOME|CODTIPONOTA|||(Memo)|04/03/2009|-1|
+SYS_PARAMETRO                           |CODPARAMETRO                            |419|CX|396|1|CX_FORMA_AGRU_CRD|D|-1|GER_FORMAPAGAMENTO|NOME|CODFORMAPAGAMENTO|||(Memo)|04/03/2009|-1|
+SYS_PARAMETRO                           |CODPARAMETRO                            |420|CX|397|1|CX_FORMA_AGRU_DEB|D|-1|GER_FORMAPAGAMENTO|NOME|CODFORMAPAGAMENTO|||(Memo)|04/03/2009|-1|
+SYS_PARAMETRO                           |CODPARAMETRO                            |421|ES|398|1|ES_TIPO_NF_SAIDA|D|3|GER_TIPONOTA|NOME|CODTIPONOTA|||(Memo)|04/03/2009|-1|
 SYS_PARAMETRO                           |CODPARAMETRO                            |422|VE|399|1|VE_BLOQUEIA_TIPONOTA|L|NÃO||||||(Memo)|05/03/2009|NÃO|
 SYS_PARAMETRO                           |CODPARAMETRO                            |423|VE|400|1|VE_HORA_REL_CONF|L|NÃO||||||(Memo)|05/03/2009|NÃO|
 SYS_PARAMETRO                           |CODPARAMETRO                            |424|EC|401|1|EC_IMPOSTO_EM_OUTRAS|L|SIM||||||(Memo)|10/03/2009|SIM|
 SYS_PARAMETRO                           |CODPARAMETRO                            |425|ES|402|1|ES_REMARCA_PROM|L|NÃO||||||(Memo)|18/03/2009|NÃO|
 SYS_PARAMETRO                           |CODPARAMETRO                            |426|VE|403|1|VE_SAIR_PARC_CUPOM|L|SIM||||||(Memo)|25/03/2009|SIM|
 SYS_PARAMETRO                           |CODPARAMETRO                            |427|VE|404|1|VE_CUPOM_REDUZIDO|L|NÃO||||||(Memo)|30/03/2009|NÃO|
-SYS_PARAMETRO                           |CODPARAMETRO                            |428|VE|405|1|VE_VEND_VRAPIDA|L|SIM||||||(Memo)|31/03/2009|NÃO|
+SYS_PARAMETRO                           |CODPARAMETRO                            |428|VE|405|1|VE_VEND_VRAPIDA|L|NÃO||||||(Memo)|31/03/2009|NÃO|
 SYS_PARAMETRO                           |CODPARAMETRO                            |429|VE|406|1|VE_CTACXA_RAPIDA|D|-1|CXA_CAIXA|NOME|CODCAIXA|||(Memo)|31/03/2009|-1|
 SYS_PARAMETRO                           |CODPARAMETRO                            |430|CE|407|1|CE_NAORECEBER|I|90||||0|90|(Memo)|07/04/2009|90|
 SYS_PARAMETRO                           |CODPARAMETRO                            |431|CE|22|1|CE_MULTA|R|0||||||(Memo)|07/04/2009|0|
 SYS_PARAMETRO                           |CODPARAMETRO                            |432|CE|21|1|CE_JUROS|R|0,33||||||(Memo)|07/04/2009|0,33|
 SYS_PARAMETRO                           |CODPARAMETRO                            |433|CE|348|1|CE_PROTESTO|I|5||||||(Memo)|07/04/2009|5|
 SYS_PARAMETRO                           |CODPARAMETRO                            |434|CO|408|1|CO_CHECAR_DTEMISSAO|L|SIM||||||(Memo)|15/04/2009|SIM|
-SYS_PARAMETRO                           |CODPARAMETRO                            |435|GE|409|1|GE_SOMENTE_FI|L|NÃO||||||(Memo)|23/04/2009|NÃO|
+SYS_PARAMETRO                           |CODPARAMETRO                            |435|GE|409|1|GE_SOMENTE_FI|L|SIM||||||(Memo)|23/04/2009|NÃO|
 SYS_PARAMETRO                           |CODPARAMETRO                            |436|AS|411|1|AS_CLASSIF1|C|CLASSIFICAÇÃO 1||||||(Memo)|12/05/2009|CLASSIFICAÇÃO 1|
 SYS_PARAMETRO                           |CODPARAMETRO                            |437|AS|412|1|AS_CLASSIF2|C|CLASSIFICAÇÃO 2||||||(Memo)|12/05/2009|CLASSIFICAÇÃO 2|
 SYS_PARAMETRO                           |CODPARAMETRO                            |438|DP|413|1|DP_PEDE_SENHA|L|SIM||||||(Memo)|20/05/2009|SIM|
@@ -1646,7 +1661,7 @@ SYS_PARAMETRO                           |CODPARAMETRO                           
 SYS_PARAMETRO                           |CODPARAMETRO                            |448|BD|418|1|BD_BANCO|D|-1|CLF_BANCO|NOME|CODBANCO|||(Memo)|27/05/2009|-1|
 SYS_PARAMETRO                           |CODPARAMETRO                            |449|VE|419|1|VE_JT_CABECALHO|I|1||||1|3|(Memo)|28/05/2009|1|
 SYS_PARAMETRO                           |CODPARAMETRO                            |450|VE|420|1|VE_PERGUNTAR_NV|L|NÃO||||||(Memo)|28/05/2009|NÃO|
-SYS_PARAMETRO                           |CODPARAMETRO                            |451|VE|421|1|VE_IMPOBS_GRANDE|L|SIM||||||(Memo)|28/05/2009|NÃO|
+SYS_PARAMETRO                           |CODPARAMETRO                            |451|VE|421|1|VE_IMPOBS_GRANDE|L|NÃO||||||(Memo)|28/05/2009|NÃO|
 SYS_PARAMETRO                           |CODPARAMETRO                            |452|VE|422|1|VE_PC_ACRESCIMOS_NV|D|-1|GER_PLANOCONTA|NOME|CODPLANOCONTA|||(Memo)|28/05/2009|-1|
 SYS_PARAMETRO                           |CODPARAMETRO                            |453|ES|423|1|ES_TAB_ESPECIAL|I|1||||1|2|(Memo)|28/05/2009|1|
 SYS_PARAMETRO                           |CODPARAMETRO                            |454|ES|424|1|ES_ICMS_PARTILHA|R|0||||||(Memo)|28/05/2009|0|
@@ -1660,8 +1675,8 @@ SYS_PARAMETRO                           |CODPARAMETRO                           
 SYS_PARAMETRO                           |CODPARAMETRO                            |462|PM|431|1|PM_CODATV|C|10.01||||||(Memo)|25/06/2009|10.01|
 SYS_PARAMETRO                           |CODPARAMETRO                            |463|PM|432|1|PM_PASTA|C|C:\SINTEGRA||||||(Memo)|25/06/2009|C:\SINTEGRA|
 SYS_PARAMETRO                           |CODPARAMETRO                            |464|CE|349|1|CE_NOSSONUM|R|0||||||(Memo)|26/06/2009|0|
-SYS_PARAMETRO                           |CODPARAMETRO                            |465|EC|433|1|EC_PASTA_EXPORTA_PF|P|c:\||||||(Memo)|02/07/2009|c:\|
-SYS_PARAMETRO                           |CODPARAMETRO                            |466|VE|434|1|VE_COMISSAO_TIPO|I|3||||1|4|(Memo)|06/07/2009|2|
+SYS_PARAMETRO                           |CODPARAMETRO                            |465|EC|433|1|EC_PASTA_EXPORTA_PF|P|C:\Arquivos de programas\Frente de caixa\Recepção||||||(Memo)|02/07/2009|c:\|
+SYS_PARAMETRO                           |CODPARAMETRO                            |466|VE|434|1|VE_COMISSAO_TIPO|I|2||||1|4|(Memo)|06/07/2009|2|
 SYS_PARAMETRO                           |CODPARAMETRO                            |467|VE|435|1|VE_COMISSAO_AVISTA|R|0||||||(Memo)|06/07/2009|0|
 SYS_PARAMETRO                           |CODPARAMETRO                            |468|VE|436|1|VE_COMISSAO_APRAZO|R|0||||||(Memo)|06/07/2009|0|
 SYS_PARAMETRO                           |CODPARAMETRO                            |469|VE|437|1|VE_IMPRIME_VRAPIDA|L|SIM||||||(Memo)|10/07/2009|SIM|
@@ -1672,7 +1687,7 @@ SYS_PARAMETRO                           |CODPARAMETRO                           
 SYS_PARAMETRO                           |CODPARAMETRO                            |474|UT|442|1|UT_DT_TRANSF_CF|C|||||||(Memo)|13/07/2009||
 SYS_PARAMETRO                           |CODPARAMETRO                            |475|UT|443|1|UT_DT_TRANSF_ES|C|||||||(Memo)|13/07/2009||
 SYS_PARAMETRO                           |CODPARAMETRO                            |476|UT|444|1|UT_DT_TRANSF_NF|C|||||||(Memo)|13/07/2009||
-SYS_PARAMETRO                           |CODPARAMETRO                            |477|CL|439|1|CL_LOC_FANTASIA|L|SIM||||||(Memo)|13/07/2009|NÃO|
+SYS_PARAMETRO                           |CODPARAMETRO                            |477|CL|439|1|CL_LOC_FANTASIA|L|NÃO||||||(Memo)|13/07/2009|NÃO|
 SYS_PARAMETRO                           |CODPARAMETRO                            |478|VE|440|1|VE_TRABALHA_COND|L|NÃO||||||(Memo)|13/07/2009|NÃO|
 SYS_PARAMETRO                           |CODPARAMETRO                            |479|VE|441|1|VE_NOTA_FECHACOND|D|6|GER_TIPONOTA|NOME|CODTIPONOTA|||(Memo)|13/07/2009|6|
 SYS_PARAMETRO                           |CODPARAMETRO                            |480|CO|445|1|CO_LIB_JURO_RC|L|NÃO||||||(Memo)|13/07/2009|NÃO|
@@ -1690,21 +1705,21 @@ SYS_PARAMETRO                           |CODPARAMETRO                           
 SYS_PARAMETRO                           |CODPARAMETRO                            |492|VE|453|1|VE_KIT_EXCLUI|L|SIM||||||(Memo)|23/07/2009|SIM|
 SYS_PARAMETRO                           |CODPARAMETRO                            |493|VE|455|1|VE_KIT_ALTERA|L|SIM||||||(Memo)|23/07/2009|SIM|
 SYS_PARAMETRO                           |CODPARAMETRO                            |494|VE|456|1|VE_KIT_IMP_ITENS|I|1||||1|2|(Memo)|23/07/2009|1|
-SYS_PARAMETRO                           |CODPARAMETRO                            |495|ES|457|1|ES_TRABALHA_KIT|L|SIM||||||(Memo)|24/07/2009|NÃO|
+SYS_PARAMETRO                           |CODPARAMETRO                            |495|ES|457|1|ES_TRABALHA_KIT|L|NÃO||||||(Memo)|24/07/2009|NÃO|
 SYS_PARAMETRO                           |CODPARAMETRO                            |496|CO|458|1|CO_OUTVAL_INST|I|4||||1|4|(Memo)|29/07/2009|4|
 SYS_PARAMETRO                           |CODPARAMETRO                            |497|CE|459|1|CE_POSICAO_NOSSONUM|I|47||||||(Memo)|30/07/2009|47|
 SYS_PARAMETRO                           |CODPARAMETRO                            |498|CE|460|1|CE_TAMANHO_NOSSONUM|I|11||||||(Memo)|30/07/2009|11|
 SYS_PARAMETRO                           |CODPARAMETRO                            |499|MT|461|1|MT_VLR_MIN_PREPAGO|R|35||||||(Memo)|30/07/2009|35|
-SYS_PARAMETRO                           |CODPARAMETRO                            |500|VE|462|1|VE_CHECA_OS_ORC|L|NÃO||||||(Memo)|01/08/2009|SIM|
-SYS_PARAMETRO                           |CODPARAMETRO                            |501|CX|463|1|CX_SALDO_ANT|L|SIM||||||(Memo)|01/08/2009|NÃO|
+SYS_PARAMETRO                           |CODPARAMETRO                            |500|VE|462|1|VE_CHECA_OS_ORC|L|SIM||||||(Memo)|01/08/2009|SIM|
+SYS_PARAMETRO                           |CODPARAMETRO                            |501|CX|463|1|CX_SALDO_ANT|L|NÃO||||||(Memo)|01/08/2009|NÃO|
 SYS_PARAMETRO                           |CODPARAMETRO                            |502|VE|464|1|VE_PERFIL_PRC_AUTO|D|-1|USR_PERFIL|NOME|CODPERFIL|||(Memo)|02/08/2009|-1|
 SYS_PARAMETRO                           |CODPARAMETRO                            |503|VE|465|1|VE_QTE_ZERADA|L|NÃO||||||(Memo)|02/08/2009|NÃO|
 SYS_PARAMETRO                           |CODPARAMETRO                            |504|VE|466|1|VE_CONDICIONAL|D|9|GER_TIPONOTA|NOME|CODTIPONOTA|||(Memo)|02/08/2009|9|
 SYS_PARAMETRO                           |CODPARAMETRO                            |505|VE|467|1|VE_DIFREQ_INC_DEV|L|NÃO||||||(Memo)|03/08/2009|NÃO|
 SYS_PARAMETRO                           |CODPARAMETRO                            |506|VE|468|1|VE_PERFIL_LIB|D|-1|USR_PERFIL|NOME|CODPERFIL|||(Memo)|05/08/2009|-1|
 SYS_PARAMETRO                           |CODPARAMETRO                            |507|VE|469|1|VE_TEMPO_LIB|R|60||||||(Memo)|05/08/2009|60|
-SYS_PARAMETRO                           |CODPARAMETRO                            |508|VE|470|1|VE_CAT_INATIVO|D|4|CLF_CATEGORIA|NOME|CODCATEGORIA|||(Memo)|06/08/2009|-1|
-SYS_PARAMETRO                           |CODPARAMETRO                            |509|VE|471|1|VE_CAT_AVISTA|D|5|CLF_CATEGORIA|NOME|CODCATEGORIA|||(Memo)|06/08/2009|-1|
+SYS_PARAMETRO                           |CODPARAMETRO                            |508|VE|470|1|VE_CAT_INATIVO|D|-1|CLF_CATEGORIA|NOME|CODCATEGORIA|||(Memo)|06/08/2009|-1|
+SYS_PARAMETRO                           |CODPARAMETRO                            |509|VE|471|1|VE_CAT_AVISTA|D|-1|CLF_CATEGORIA|NOME|CODCATEGORIA|||(Memo)|06/08/2009|-1|
 SYS_PARAMETRO                           |CODPARAMETRO                            |510|CO|472|1|CO_ALT_MOV_VINC|L|NÃO||||||(Memo)|07/08/2009|NÃO|
 SYS_PARAMETRO                           |CODPARAMETRO                            |511|VE|473|1|VE_GRADE_ALFA|L|NÃO||||||(Memo)|07/08/2009|NÃO|
 SYS_PARAMETRO                           |CODPARAMETRO                            |512|VE|474|1|VE_REQ_VENDEDOR|L|NÃO||||||(Memo)|07/08/2009|NÃO|
@@ -1718,7 +1733,7 @@ SYS_PARAMETRO                           |CODPARAMETRO                           
 SYS_PARAMETRO                           |CODPARAMETRO                            |520|EM|482|1|EM_TOPO_TERM|I|10||||||(Memo)|10/08/2009|10|
 SYS_PARAMETRO                           |CODPARAMETRO                            |521|EM|483|1|EM_ESQUERDA_TERM|I|90||||||(Memo)|10/08/2009|90|
 SYS_PARAMETRO                           |CODPARAMETRO                            |522|UT|484|1|UT_UDF_ACENTO|L|NÃO||||||(Memo)|10/08/2009|SIM|
-SYS_PARAMETRO                           |CODPARAMETRO                            |523|VE|485|1|VE_PEDIR_RECADASTRO|C|NÃO||||||(Memo)|11/08/2009|N|
+SYS_PARAMETRO                           |CODPARAMETRO                            |523|VE|485|1|VE_PEDIR_RECADASTRO|C|N||||||(Memo)|11/08/2009|N|
 SYS_PARAMETRO                           |CODPARAMETRO                            |524|VE|486|1|VE_PRZ_TROCA_TELA|I|30||||||(Memo)|12/08/2009|30|
 SYS_PARAMETRO                           |CODPARAMETRO                            |525|VE|487|1|VE_VER_ATRASO_FATURA|L|NÃO||||||(Memo)|12/08/2009|NÃO|
 SYS_PARAMETRO                           |CODPARAMETRO                            |526|ES|488|1|ES_CAT_FOR_DIF|D|-1|CLF_CATEGORIA|NOME|CODCATEGORIA|||(Memo)|13/08/2009|-1|
@@ -1734,19 +1749,19 @@ SYS_PARAMETRO                           |CODPARAMETRO                           
 SYS_PARAMETRO                           |CODPARAMETRO                            |536|ES|497|1|ES_ALIQ_PAD_DENTRO|D|1|EST_ALIQUOTA|NOME|CODALIQUOTA|||(Memo)|25/08/2009|1|
 SYS_PARAMETRO                           |CODPARAMETRO                            |537|ES|499|1|ES_DOCTO_PEDIDO|D|-1|GER_TIPODOCUMENTO|NOME|CODTIPODOCUMENTO|||(Memo)|26/08/2009|-1|
 SYS_PARAMETRO                           |CODPARAMETRO                            |538|ES|500|1|ES_PC_PEDIDO|D|-1|GER_PLANOCONTA|NOME|CODPLANOCONTA|||(Memo)|26/08/2009|-1|
-SYS_PARAMETRO                           |CODPARAMETRO                            |539|ES|501|1|ES_CC_PEDIDO|D|1|GER_CENTROCUSTO|NOME|CODCENTROCUSTO|||(Memo)|26/08/2009|-1|
+SYS_PARAMETRO                           |CODPARAMETRO                            |539|ES|501|1|ES_CC_PEDIDO|D|-1|GER_CENTROCUSTO|NOME|CODCENTROCUSTO|||(Memo)|26/08/2009|-1|
 SYS_PARAMETRO                           |CODPARAMETRO                            |540|ES|502|1|ES_LOCAL_PEDIDO|D|-1|CLF_BANCO|NOME|CODBANCO|||(Memo)|26/08/2009|-1|
 SYS_PARAMETRO                           |CODPARAMETRO                            |541|EM|233|1|EM_IMP_TERMICA|I|0||||0|30|(Memo)|27/08/2009|0|
 SYS_PARAMETRO                           |CODPARAMETRO                            |542|VE|503|1|VE_TESTA_NUMERO|L|SIM||||||(Memo)|27/08/2009|SIM|
 SYS_PARAMETRO                           |CODPARAMETRO                            |543|CO|504|1|CO_DIAS_SPC|I|0||||||(Memo)|27/08/2009|0|
 SYS_PARAMETRO                           |CODPARAMETRO                            |544|ES|505|1|ES_GRADE_POR_TIPO|L|NÃO||||||(Memo)|29/08/2009|NÃO|
-SYS_PARAMETRO                           |CODPARAMETRO                            |545|EC|506|1|EC_TEMPO_PREVENDA|R|0||||||(Memo)|02/09/2009|0|
+SYS_PARAMETRO                           |CODPARAMETRO                            |545|EC|506|1|EC_TEMPO_PREVENDA|R|0,25||||||(Memo)|02/09/2009|0|
 SYS_PARAMETRO                           |CODPARAMETRO                            |546|ES|507|1|ES_ENTCFOP_SER_DEN|D|-1|ENS_CFOP|CFOP|CODCFOP|||(Memo)|03/09/2009|-1|
 SYS_PARAMETRO                           |CODPARAMETRO                            |547|ES|508|1|ES_ENTCFOP_SER_FORA|D|-1|ENS_CFOP|CFOP|CODCFOP|||(Memo)|03/09/2009|-1|
 SYS_PARAMETRO                           |CODPARAMETRO                            |548|VE|509|1|VE_TAM_CUPOM|I|1||||1|2|(Memo)|04/09/2009|1|
-SYS_PARAMETRO                           |CODPARAMETRO                            |549|EC|510|1|EC_CAPTURA_CF_AUTO|L|NÃO||||||(Memo)|15/09/2009|NÃO|
-SYS_PARAMETRO                           |CODPARAMETRO                            |550|EC|511|1|EC_TERMINAL_CF_AUTO|C|-||||||(Memo)|15/09/2009|-|
-SYS_PARAMETRO                           |CODPARAMETRO                            |551|EC|512|1|EC_LOCAL_BCO_CHART|C|c:\chart\dbcomum\dbcomum.gdb||||||(Memo)|15/09/2009|c:\chart\dbcomum\dbcomum.gdb|
+SYS_PARAMETRO                           |CODPARAMETRO                            |549|EC|510|1|EC_CAPTURA_CF_AUTO|L|SIM||||||(Memo)|15/09/2009|NÃO|
+SYS_PARAMETRO                           |CODPARAMETRO                            |550|EC|511|1|EC_TERMINAL_CF_AUTO|C|Fiscal||||||(Memo)|15/09/2009|-|
+SYS_PARAMETRO                           |CODPARAMETRO                            |551|EC|512|1|EC_LOCAL_BCO_CHART|C|Fiscal:C:\chart\DBCOMUM\DBCOMUM.FDB||||||(Memo)|15/09/2009|c:\chart\dbcomum\dbcomum.gdb|
 SYS_PARAMETRO                           |CODPARAMETRO                            |552|CP|513|1|CP_PERC_VALFIXO|R|0||||||(Memo)|17/09/2009|0|
 SYS_PARAMETRO                           |CODPARAMETRO                            |553|CP|514|1|CP_PC_VALFIXO|D|-1|GER_PLANOCONTA|NOME|CODPLANOCONTA|||(Memo)|17/09/2009|-1|
 SYS_PARAMETRO                           |CODPARAMETRO                            |554|EC|515|1|EC_NOTA_FORA_ESTAB|D|-1|GER_TIPONOTA|NOME|CODTIPONOTA|||(Memo)|18/09/2009|-1|
@@ -1766,7 +1781,7 @@ SYS_PARAMETRO                           |CODPARAMETRO                           
 SYS_PARAMETRO                           |CODPARAMETRO                            |568|VE|527|1|VE_DESC_BC_COMIS|R|0||||||(Memo)|03/11/2009|0|
 SYS_PARAMETRO                           |CODPARAMETRO                            |569|VE|528|1|VE_REQ_ACEITA_AGRU|L|SIM||||||(Memo)|02/12/2009|SIM|
 SYS_PARAMETRO                           |CODPARAMETRO                            |570|VE|529|1|VE_PEDESENHA_SERV|L|NÃO||||||(Memo)|10/12/2009|NÃO|
-SYS_PARAMETRO                           |CODPARAMETRO                            |571|GE|530|1|GE_NFE|L|NÃO||||||(Memo)|15/12/2009|NÃO|
+SYS_PARAMETRO                           |CODPARAMETRO                            |571|GE|530|1|GE_NFE|L|SIM||||||(Memo)|15/12/2009|NÃO|
 SYS_PARAMETRO                           |CODPARAMETRO                            |572|CX|531|1|CX_CAIXAMOVIMENTO|I|1||||1|2|(Memo)|15/12/2009|1|
 SYS_PARAMETRO                           |CODPARAMETRO                            |573|IT|320|1|IT_AGENCIA|C|1234||||||(Memo)|29/12/2009|1234|
 SYS_PARAMETRO                           |CODPARAMETRO                            |574|IT|322|1|IT_CC|C|12345||||||(Memo)|29/12/2009|12345|
@@ -1781,8 +1796,8 @@ SYS_PARAMETRO                           |CODPARAMETRO                           
 SYS_PARAMETRO                           |CODPARAMETRO                            |583|IT|418|1|IT_BANCO|D|4|CLF_BANCO|NOME|CODBANCO|||(Memo)|29/12/2009|4|
 SYS_PARAMETRO                           |CODPARAMETRO                            |584|IT|348|1|IT_DIAS_PROTESTO|I|0||||||(Memo)|29/12/2009|0|
 SYS_PARAMETRO                           |CODPARAMETRO                            |585|IT|349|1|IT_NOSSONUM|I|1||||||(Memo)|29/12/2009|1|
-SYS_PARAMETRO                           |CODPARAMETRO                            |586|CX|533|1|CX_CAIXA_SEM_PC|L|SIM||||||(Memo)|23/02/2010|NÃO|
-SYS_PARAMETRO                           |CODPARAMETRO                            |587|GE|534|1|GE_SENHA_CHART|C|minaskey||||||(Memo)|03/03/2010|masterkey|
+SYS_PARAMETRO                           |CODPARAMETRO                            |586|CX|533|1|CX_CAIXA_SEM_PC|L|NÃO||||||(Memo)|23/02/2010|NÃO|
+SYS_PARAMETRO                           |CODPARAMETRO                            |587|GE|534|1|GE_SENHA_CHART|C|masterkey||||||(Memo)|03/03/2010|masterkey|
 SYS_PARAMETRO                           |CODPARAMETRO                            |588|VE|535|1|VE_PEDESENHA_SPC|L|NÃO||||||(Memo)|04/03/2010|NÃO|
 SYS_PARAMETRO                           |CODPARAMETRO                            |589|ES|536|1|ES_SO_MATPRIMA|L|SIM||||||(Memo)|20/03/2010|SIM|
 SYS_PARAMETRO                           |CODPARAMETRO                            |590|VE|537|1|VE_PRECO_AVULSO|L|NÃO||||||(Memo)|22/03/2010|NÃO|
@@ -1810,7 +1825,7 @@ SYS_PARAMETRO                           |CODPARAMETRO                           
 SYS_PARAMETRO                           |CODPARAMETRO                            |612|GE|545|1|GE_MASCARA_QTE_VENDA|C|#0.00||||||(Memo)|09/04/2010|#0.00|
 SYS_PARAMETRO                           |CODPARAMETRO                            |613|VE|546|1|VE_VENC_AVULSO_VRAP|L|NÃO||||||(Memo)|10/04/2010|NÃO|
 SYS_PARAMETRO                           |CODPARAMETRO                            |614|VE|547|1|VE_PRZ_VEN_AVU_VRAP|I|90||||||(Memo)|10/04/2010|90|
-SYS_PARAMETRO                           |CODPARAMETRO                            |615|CO|548|1|CO_TIPO_DOC_CARTAO|D|500000|GER_TIPODOCUMENTO|NOME|CODTIPODOCUMENTO|||(Memo)|14/04/2010|-1|
+SYS_PARAMETRO                           |CODPARAMETRO                            |615|CO|548|1|CO_TIPO_DOC_CARTAO|D|-1|GER_TIPODOCUMENTO|NOME|CODTIPODOCUMENTO|||(Memo)|14/04/2010|-1|
 SYS_PARAMETRO                           |CODPARAMETRO                            |616|ES|549|1|ES_NF_COMPLEMENTO|L|NÃO||||||(Memo)|19/04/2010|NÃO|
 SYS_PARAMETRO                           |CODPARAMETRO                            |617|LT|550|1|LT_FORMAPGTO|D|-1|GER_FORMAPAGAMENTO|NOME|CODFORMAPAGAMENTO|||(Memo)|23/04/2010|-1|
 SYS_PARAMETRO                           |CODPARAMETRO                            |618|LT|551|1|LT_PLANOCONTA|D|-1|GER_PLANOCONTA|NOME|CODPLANOCONTA|||(Memo)|23/04/2010|-1|
@@ -1865,7 +1880,7 @@ SYS_PARAMETRO                           |CODPARAMETRO                           
 SYS_PARAMETRO                           |CODPARAMETRO                            |667|TR|593|1|TR_CARRETA|D|-1|TRA_CATEGORIA|NOME|CODCATVEICULO|||(Memo)|06/07/2010|-1|
 SYS_PARAMETRO                           |CODPARAMETRO                            |668|TR|594|1|TR_CONDICAO|D|-1|GER_CONDICAOPAGAMENTO|NOME|CODCONDICAOPAGAMENTO|||(Memo)|07/07/2010|-1|
 SYS_PARAMETRO                           |CODPARAMETRO                            |669|TR|595|1|TR_PC_FRETE|D|-1|GER_PLANOCONTA|NOME|CODPLANOCONTA|||(Memo)|07/07/2010|-1|
-SYS_PARAMETRO                           |CODPARAMETRO                            |670|TR|596|1|TR_CC_FRETE|D|1|GER_CENTROCUSTO|NOME|CODCENTROCUSTO|||(Memo)|07/07/2010|-1|
+SYS_PARAMETRO                           |CODPARAMETRO                            |670|TR|596|1|TR_CC_FRETE|D|-1|GER_CENTROCUSTO|NOME|CODCENTROCUSTO|||(Memo)|07/07/2010|-1|
 SYS_PARAMETRO                           |CODPARAMETRO                            |671|TR|597|1|TR_DOCTO_FRETE|D|-1|GER_TIPODOCUMENTO|NOME|CODTIPODOCUMENTO|||(Memo)|07/07/2010|-1|
 SYS_PARAMETRO                           |CODPARAMETRO                            |672|TR|598|1|TR_LOCAL_FRETE|D|-1|CLF_BANCO|NOME|CODBANCO|||(Memo)|07/07/2010|-1|
 SYS_PARAMETRO                           |CODPARAMETRO                            |673|TR|599|1|TR_COD_INSS|D|-1|TRA_TIPOIMPOSTO|NOME|CODIMPOSTO|||(Memo)|09/07/2010|-1|
@@ -1884,12 +1899,12 @@ SYS_PARAMETRO                           |CODPARAMETRO                           
 SYS_PARAMETRO                           |CODPARAMETRO                            |686|CP|612|1|CP_HIS_SIMULACAO|C|SIMULAÇÃO DE RATEIO||||||(Memo)|05/08/2010|SIMULAÇÃO DE RATEIO|
 SYS_PARAMETRO                           |CODPARAMETRO                            |687|CO|613|1|CO_PROT_SPC_OBRIG|L|NÃO||||||(Memo)|15/08/2010|NÃO|
 SYS_PARAMETRO                           |CODPARAMETRO                            |688|VE|614|1|VE_PASSA_SEM_REN|L|SIM||||||(Memo)|19/08/2010|SIM|
-SYS_PARAMETRO                           |CODPARAMETRO                            |689|VE|615|1|VE_CPF_OBRIG_PRE|L|NÃO||||||(Memo)|19/08/2010|SIM|
+SYS_PARAMETRO                           |CODPARAMETRO                            |689|VE|615|1|VE_CPF_OBRIG_PRE|L|SIM||||||(Memo)|19/08/2010|SIM|
 SYS_PARAMETRO                           |CODPARAMETRO                            |690|VE|616|1|VE_CH_CLI_AVULSO|L|NÃO||||||(Memo)|19/08/2010|NÃO|
 SYS_PARAMETRO                           |CODPARAMETRO                            |691|VE|617|1|VE_GRUPO_ACES|D|-1|EST_GRUPO|NOME|CODGRUPO|||(Memo)|19/08/2010|-1|
 SYS_PARAMETRO                           |CODPARAMETRO                            |692|VE|618|1|VE_DESCONTO_AUTO|L|NÃO||||||(Memo)|19/08/2010|NÃO|
 SYS_PARAMETRO                           |CODPARAMETRO                            |693|VE|619|1|VE_PERGUNTA_LIM|I|1||||1|2|(Memo)|20/08/2010|1|
-SYS_PARAMETRO                           |CODPARAMETRO                            |694|VE|620|1|VE_PLANO_CONSIG|D|3|GER_CONDICAOPAGAMENTO|NOME|CODCONDICAOPAGAMENTO|||(Memo)|27/08/2010|-1|
+SYS_PARAMETRO                           |CODPARAMETRO                            |694|VE|620|1|VE_PLANO_CONSIG|D|-1|GER_CONDICAOPAGAMENTO|NOME|CODCONDICAOPAGAMENTO|||(Memo)|27/08/2010|-1|
 SYS_PARAMETRO                           |CODPARAMETRO                            |695|CL|621|1|CL_TEMPO_RESIDE|L|NÃO||||||(Memo)|30/08/2010|NÃO|
 SYS_PARAMETRO                           |CODPARAMETRO                            |696|CL|622|1|CL_DESC_DEP|C|Dependentes||||||(Memo)|30/08/2010|Dependentes|
 SYS_PARAMETRO                           |CODPARAMETRO                            |697|VE|623|1|VE_MOD_NOTA_CONS|I|1||||1|2|(Memo)|31/08/2010|1|
@@ -1897,7 +1912,7 @@ SYS_PARAMETRO                           |CODPARAMETRO                           
 SYS_PARAMETRO                           |CODPARAMETRO                            |699|VE|625|1|VE_NOTA_NAODESC1|D|-1|GER_TIPONOTA|NOME|CODTIPONOTA|||(Memo)|01/09/2010|-1|
 SYS_PARAMETRO                           |CODPARAMETRO                            |700|VE|625|1|VE_NOTA_NAODESC2|D|-1|GER_TIPONOTA|NOME|CODTIPONOTA|||(Memo)|01/09/2010|-1|
 SYS_PARAMETRO                           |CODPARAMETRO                            |701|VE|626|1|VE_DESC_ADIC|L|NÃO||||||(Memo)|01/09/2010|NÃO|
-SYS_PARAMETRO                           |CODPARAMETRO                            |702|VE|627|1|VE_TRAB_DESISTENCIA|L|NÃO||||||(Memo)|01/09/2010|SIM|
+SYS_PARAMETRO                           |CODPARAMETRO                            |702|VE|627|1|VE_TRAB_DESISTENCIA|L|SIM||||||(Memo)|01/09/2010|SIM|
 SYS_PARAMETRO                           |CODPARAMETRO                            |703|VE|628|1|VE_BARRA_MISTURADA|L|NÃO||||||(Memo)|01/09/2010|NÃO|
 SYS_PARAMETRO                           |CODPARAMETRO                            |704|VE|629|1|VE_MIN_DESC_ADIC|R|500||||||(Memo)|02/09/2010|500|
 SYS_PARAMETRO                           |CODPARAMETRO                            |705|EM|630|1|EM_DIMENSAO_TERM|I|168||||||(Memo)|02/09/2010|168|
@@ -1910,21 +1925,21 @@ SYS_PARAMETRO                           |CODPARAMETRO                           
 SYS_PARAMETRO                           |CODPARAMETRO                            |712|GE|637|1|GE_MASCARA_GRADE|C|99999-999;0;_||||||(Memo)|19/09/2010|99999-999;0;_|
 SYS_PARAMETRO                           |CODPARAMETRO                            |713|VE|638|1|VE_EXIBENUM_VRAPIDA|L|NÃO||||||(Memo)|19/09/2010|NÃO|
 SYS_PARAMETRO                           |CODPARAMETRO                            |714|VE|639|1|VE_QUALQUER_GRADE|L|NÃO||||||(Memo)|20/09/2010|NÃO|
-SYS_PARAMETRO                           |CODPARAMETRO                            |715|VE|640|1|VE_NV_CLIOBRIGATORIO|L|SIM||||||(Memo)|22/09/2010|NÃO|
+SYS_PARAMETRO                           |CODPARAMETRO                            |715|VE|640|1|VE_NV_CLIOBRIGATORIO|L|NÃO||||||(Memo)|22/09/2010|NÃO|
 SYS_PARAMETRO                           |CODPARAMETRO                            |716|VE|641|1|VE_INIBIR_DESCGERAL|L|NÃO||||||(Memo)|22/09/2010|NÃO|
 SYS_PARAMETRO                           |CODPARAMETRO                            |717|VE|642|1|VE_CONFERE_DEVOL|L|SIM||||||(Memo)|22/09/2010|SIM|
 SYS_PARAMETRO                           |CODPARAMETRO                            |718|VE|643|1|VE_IMPRIME_DEVOL|L|SIM||||||(Memo)|22/09/2010|SIM|
 SYS_PARAMETRO                           |CODPARAMETRO                            |719|ES|644|1|ES_BUSCA_COMPLETA|L|NÃO||||||(Memo)|22/09/2010|NÃO|
-SYS_PARAMETRO                           |CODPARAMETRO                            |720|VE|645|1|VE_TRABALHA_TROCO|L|SIM||||||(Memo)|22/09/2010|NÃO|
+SYS_PARAMETRO                           |CODPARAMETRO                            |720|VE|645|1|VE_TRABALHA_TROCO|L|NÃO||||||(Memo)|22/09/2010|NÃO|
 SYS_PARAMETRO                           |CODPARAMETRO                            |721|VE|646|1|VE_ARQ_QUEDA_ENER|L|NÃO||||||(Memo)|23/09/2010|NÃO|
-SYS_PARAMETRO                           |CODPARAMETRO                            |722|TR|647|1|TR_EMAIL|C|sac@coovatrans.com.br||||||(Memo)|24/09/2010||
+SYS_PARAMETRO                           |CODPARAMETRO                            |722|TR|647|1|TR_EMAIL|C|2||||||(Memo)|24/09/2010||
 SYS_PARAMETRO                           |CODPARAMETRO                            |723|TR|648|1|TR_COMPLEMENTO_IMPCF|C|Cooperativa Valadarense de Transporte Rodoviário de Cargas Ltda||||||(Memo)|24/09/2010||
 SYS_PARAMETRO                           |CODPARAMETRO                            |724|EC|649|1|EC_PROG_ECF|I|1||||1|2|(Memo)|29/09/2010|1|
-SYS_PARAMETRO                           |CODPARAMETRO                            |725|ES|650|1|ES_PASTA_NFE|P|C:\NOTA\NOTA.TXT||||||(Memo)|01/10/2010|C:\NOTA.TXT|
+SYS_PARAMETRO                           |CODPARAMETRO                            |725|ES|650|1|ES_PASTA_NFE|P|C:\NFE\NOTA.TXT||||||(Memo)|01/10/2010|C:\NOTA.TXT|
 SYS_PARAMETRO                           |CODPARAMETRO                            |726|EM|651|1|EM_PERGUNTAR|L|NÃO||||||(Memo)|06/10/2010|NÃO|
 SYS_PARAMETRO                           |CODPARAMETRO                            |727|VE|652|1|VE_INCABERTO_LIM|L|SIM||||||(Memo)|06/10/2010|SIM|
 SYS_PARAMETRO                           |CODPARAMETRO                            |728|ES|653|1|ES_TELA_BUSCA|I|1||||1|3|(Memo)|18/10/2010|1|
-SYS_PARAMETRO                           |CODPARAMETRO                            |729|VE|654|1|VE_PARAR_CARTAO|L|SIM||||||(Memo)|20/10/2010|NÃO|
+SYS_PARAMETRO                           |CODPARAMETRO                            |729|VE|654|1|VE_PARAR_CARTAO|L|NÃO||||||(Memo)|20/10/2010|NÃO|
 SYS_PARAMETRO                           |CODPARAMETRO                            |730|VE|655|1|VE_CARNE_IMP|I|1||||1|3|(Memo)|29/10/2010|1|
 SYS_PARAMETRO                           |CODPARAMETRO                            |731|VE|656|1|VE_CARNE_ECONOMICO|L|NÃO||||||(Memo)|29/10/2010|NÃO|
 SYS_PARAMETRO                           |CODPARAMETRO                            |732|ES|657|1|ES_TRABALHA_SIMULADO|L|NÃO||||||(Memo)|29/10/2010|NÃO|
@@ -1940,7 +1955,7 @@ SYS_PARAMETRO                           |CODPARAMETRO                           
 SYS_PARAMETRO                           |CODPARAMETRO                            |742|EC|667|1|EC_CAIXA6|D|-1|CXA_CAIXA|NOME|CODCAIXA|||(Memo)|06/11/2010|-1|
 SYS_PARAMETRO                           |CODPARAMETRO                            |743|VE|668|1|VE_PEDE_ORCTO|L|NÃO||||||(Memo)|08/11/2010|NÃO|
 SYS_PARAMETRO                           |CODPARAMETRO                            |744|VE|669|1|VE_TITULO_ORCTO|C|Orçamento||||||(Memo)|09/11/2010|Orçamento|
-SYS_PARAMETRO                           |CODPARAMETRO                            |745|ES|670|1|ES_MODELONF_SAIDA|D|1|ENS_MODELONF|NOME|CODMODELONF|||(Memo)|10/11/2010|1|
+SYS_PARAMETRO                           |CODPARAMETRO                            |745|ES|670|1|ES_MODELONF_SAIDA|D|10|ENS_MODELONF|NOME|CODMODELONF|||(Memo)|10/11/2010|1|
 SYS_PARAMETRO                           |CODPARAMETRO                            |746|ES|671|1|ES_PASTA_IMPORTA_PRO|P|C:\||||||(Memo)|13/11/2010|C:\|
 SYS_PARAMETRO                           |CODPARAMETRO                            |747|ES|672|1|ES_PASTA_EXPORTA_PRO|P|C:\||||||(Memo)|13/11/2010|C:\|
 SYS_PARAMETRO                           |CODPARAMETRO                            |748|UT|673|1|UT_DT_TRANSF_PRO|C|01/01/2001||||||(Memo)|13/11/2010|01/01/2001|
@@ -1948,7 +1963,7 @@ SYS_PARAMETRO                           |CODPARAMETRO                           
 SYS_PARAMETRO                           |CODPARAMETRO                            |750|ES|675|1|ES_CLASSIFICACAO2|C|Classificação 2||||||(Memo)|17/11/2010|Classificação 2|
 SYS_PARAMETRO                           |CODPARAMETRO                            |751|EC|676|1|EC_MAX_TENTATIVA|I|5||||1|999|(Memo)|19/11/2010|5|
 SYS_PARAMETRO                           |CODPARAMETRO                            |752|EE|677|1|EE_DOC_PADRAO|D|-1|CLF_CARTA|NOME|CODCARTA|||(Memo)|23/11/2010|-1|
-SYS_PARAMETRO                           |CODPARAMETRO                            |753|ES|678|1|ES_CODIGO_NCM|D|5|EST_TIPOCODIGOMERCADORIA|NOME|CODTIPOCODIGOMERCADORIA|||(Memo)|24/11/2010|-1|
+SYS_PARAMETRO                           |CODPARAMETRO                            |753|ES|678|1|ES_CODIGO_NCM|D|500000|EST_TIPOCODIGOMERCADORIA|NOME|CODTIPOCODIGOMERCADORIA|||(Memo)|24/11/2010|-1|
 SYS_PARAMETRO                           |CODPARAMETRO                            |754|EM|679|1|EM_PRECO_DESC|I|1||||1|2|(Memo)|25/11/2010|1|
 SYS_PARAMETRO                           |CODPARAMETRO                            |755|IT|364|1|IT_CXA_COBRANCA|D|-1|CXA_CAIXA|NOME|CODCAIXA|||(Memo)|26/11/2010|-1|
 SYS_PARAMETRO                           |CODPARAMETRO                            |756|IT|362|1|IT_PASTA_RETORNO|C|c:\||||||(Memo)|26/11/2010|c:\|
@@ -1986,8 +2001,8 @@ SYS_PARAMETRO                           |CODPARAMETRO                           
 SYS_PARAMETRO                           |CODPARAMETRO                            |788|ES|709|1|ES_CODMERC_MAIOR|L|NÃO||||||(Memo)|02/02/2011|NÃO|
 SYS_PARAMETRO                           |CODPARAMETRO                            |789|ES|710|1|VE_DTMOV_DTEMI|L|NÃO||||||(Memo)|02/02/2011|NÃO|
 SYS_PARAMETRO                           |CODPARAMETRO                            |790|ES|711|1|ES_MOSTRA_COND_F6|L|SIM||||||(Memo)|04/02/2011|SIM|
-SYS_PARAMETRO                           |CODPARAMETRO                            |791|VE|712|1|VE_LIMITE_VBRUTO|L|SIM||||||(Memo)|04/02/2011|NÃO|
-SYS_PARAMETRO                           |CODPARAMETRO                            |792|VE|713|1|VE_LIM_PRECAD|L|SIM||||||(Memo)|04/02/2011|NÃO|
+SYS_PARAMETRO                           |CODPARAMETRO                            |791|VE|712|1|VE_LIMITE_VBRUTO|L|NÃO||||||(Memo)|04/02/2011|NÃO|
+SYS_PARAMETRO                           |CODPARAMETRO                            |792|VE|713|1|VE_LIM_PRECAD|L|NÃO||||||(Memo)|04/02/2011|NÃO|
 SYS_PARAMETRO                           |CODPARAMETRO                            |793|ES|714|1|ES_MOVMER_PRBRUTO|L|NÃO||||||(Memo)|07/02/2011|NÃO|
 SYS_PARAMETRO                           |CODPARAMETRO                            |794|EM|715|1|EM_TIPOCOD_38X20|I|1||||1|2|(Memo)|24/02/2011|1|
 SYS_PARAMETRO                           |CODPARAMETRO                            |795|ES|716|1|ES_CAP_NF_ATIVA|L|NÃO||||||(Memo)|24/02/2011|NÃO|
@@ -1997,11 +2012,11 @@ SYS_PARAMETRO                           |CODPARAMETRO                           
 SYS_PARAMETRO                           |CODPARAMETRO                            |799|TR|720|1|TR_PC_DESCARGA_RC|D|-1|GER_PLANOCONTA|NOME|CODPLANOCONTA|||(Memo)|03/03/2011|-1|
 SYS_PARAMETRO                           |CODPARAMETRO                            |800|ES|721|1|ES_TIPO_GRUPOSEQ|I|1||||1|3|(Memo)|03/03/2011|1|
 SYS_PARAMETRO                           |CODPARAMETRO                            |801|ES|722|1|ES_NFE_CRT|I|1||||1|3|(Memo)|11/03/2011|1|
-SYS_PARAMETRO                           |CODPARAMETRO                            |802|ES|723|1|ES_NFE_VERSAO|I|1||||1|3|(Memo)|11/03/2011|1|
+SYS_PARAMETRO                           |CODPARAMETRO                            |802|ES|723|1|ES_NFE_VERSAO|I|3||||1|3|(Memo)|11/03/2011|1|
 SYS_PARAMETRO                           |CODPARAMETRO                            |803|CO|724|1|CO_ALTVALOR_ADM|L|SIM||||||(Memo)|15/03/2011|SIM|
 SYS_PARAMETRO                           |CODPARAMETRO                            |804|CO|725|1|CO_DOC_DESC_DUP|D|-1|GER_TIPODOCUMENTO|NOME|CODTIPODOCUMENTO|||(Memo)|15/03/2011|-1|
 SYS_PARAMETRO                           |CODPARAMETRO                            |805|CX|726|1|CX_PC_DESC_DUP|D|-1|GER_PLANOCONTA|NOME|CODPLANOCONTA|||(Memo)|22/03/2011|-1|
-SYS_PARAMETRO                           |CODPARAMETRO                            |806|CX|727|1|CX_CC_DESC_DUP|D|1|GER_CENTROCUSTO|NOME|CODCENTROCUSTO|||(Memo)|22/03/2011|-1|
+SYS_PARAMETRO                           |CODPARAMETRO                            |806|CX|727|1|CX_CC_DESC_DUP|D|-1|GER_CENTROCUSTO|NOME|CODCENTROCUSTO|||(Memo)|22/03/2011|-1|
 SYS_PARAMETRO                           |CODPARAMETRO                            |807|VE|728|1|VE_BOTAO_ENCERRAR|L|NÃO||||||(Memo)|30/03/2011|NÃO|
 SYS_PARAMETRO                           |CODPARAMETRO                            |808|VE|729|1|VE_TOTAL_DEVOL|L|NÃO||||||(Memo)|30/03/2011|NÃO|
 SYS_PARAMETRO                           |CODPARAMETRO                            |809|VE|730|1|VE_MENSAGEM4|C|....||||||(Memo)|01/04/2011|....|
@@ -2015,15 +2030,15 @@ SYS_PARAMETRO                           |CODPARAMETRO                           
 SYS_PARAMETRO                           |CODPARAMETRO                            |817|TR|738|1|TR_PED_DESC_CTE|L|SIM||||||(Memo)|28/04/2011|SIM|
 SYS_PARAMETRO                           |CODPARAMETRO                            |818|UT|739|1|UT_MOS_CAMINHO_BCO|L|NÃO||||||(Memo)|30/04/2011|NÃO|
 SYS_PARAMETRO                           |CODPARAMETRO                            |819|EC|741|1|EC_FRETE_LOCAL_ISEN|L|SIM||||||(Memo)|05/05/2011|SIM|
-SYS_PARAMETRO                           |CODPARAMETRO                            |820|EC|742|1|EC_GRAVA_DTSINTEGRA|L|SIM||||||(Memo)|05/05/2011|SIM|
+SYS_PARAMETRO                           |CODPARAMETRO                            |820|EC|742|1|EC_GRAVA_DTSINTEGRA|L|NÃO||||||(Memo)|05/05/2011|SIM|
 SYS_PARAMETRO                           |CODPARAMETRO                            |821|EC|743|1|EC_USA_PROCED_CHART|L|NÃO||||||(Memo)|11/05/2011|NÃO|
 SYS_PARAMETRO                           |CODPARAMETRO                            |822|VE|744|1|VE_TIPO_MARKUP|I|1||||1|2|(Memo)|11/05/2011|1|
 SYS_PARAMETRO                           |CODPARAMETRO                            |823|EM|745|1|EM_BARRA_LETRA|L|NÃO||||||(Memo)|13/05/2011|NÃO|
-SYS_PARAMETRO                           |CODPARAMETRO                            |824|ES|746|1|ES_CHECA_SLD_CAPT|L|SIM||||||(Memo)|16/05/2011|NÃO|
+SYS_PARAMETRO                           |CODPARAMETRO                            |824|ES|746|1|ES_CHECA_SLD_CAPT|L|NÃO||||||(Memo)|16/05/2011|NÃO|
 SYS_PARAMETRO                           |CODPARAMETRO                            |825|EC|747|1|EC_USA_DELETA_CHART|L|NÃO||||||(Memo)|17/05/2011|NÃO|
 SYS_PARAMETRO                           |CODPARAMETRO                            |826|EC|748|1|EC_ATUSALDO_ECF|L|NÃO||||||(Memo)|26/05/2011|SIM|
 SYS_PARAMETRO                           |CODPARAMETRO                            |827|VE|749|1|VE_COMPL_VEICULO|I|3||||1|3|(Memo)|01/06/2011|3|
-SYS_PARAMETRO                           |CODPARAMETRO                            |828|GE|750|1|GE_AUDITORIA|L|SIM||||||(Memo)|02/06/2011|NÃO|
+SYS_PARAMETRO                           |CODPARAMETRO                            |828|GE|750|1|GE_AUDITORIA|L|NÃO||||||(Memo)|02/06/2011|NÃO|
 SYS_PARAMETRO                           |CODPARAMETRO                            |829|VE|751|1|VE_DESC100%_DEVOL|I|2||||1|2|(Memo)|16/06/2011|2|
 SYS_PARAMETRO                           |CODPARAMETRO                            |830|ES|752|1|ES_MOD_ESPELHO|I|1||||1|2|(Memo)|06/07/2011|1|
 SYS_PARAMETRO                           |CODPARAMETRO                            |831|VE|753|1|VE_VINC_VEICULO|L|SIM||||||(Memo)|06/07/2011|SIM|
@@ -2031,13 +2046,13 @@ SYS_PARAMETRO                           |CODPARAMETRO                           
 SYS_PARAMETRO                           |CODPARAMETRO                            |833|ES|755|1|ES_COD_ALTERN_BAL|L|SIM||||||(Memo)|14/07/2011|SIM|
 SYS_PARAMETRO                           |CODPARAMETRO                            |834|ES|756|1|ES_PERGUNTAR_SEQ|L|NÃO||||||(Memo)|15/07/2011|NÃO|
 SYS_PARAMETRO                           |CODPARAMETRO                            |835|GE|757|1|GE_CAPTURAR_MERC|I|1||||1|2|(Memo)|09/08/2011|1|
-SYS_PARAMETRO                           |CODPARAMETRO                            |836|ES|758|1|ES_MERC_SEM_SALDO_NF|I|3||||1|3|(Memo)|15/08/2011|1|
+SYS_PARAMETRO                           |CODPARAMETRO                            |836|ES|758|1|ES_MERC_SEM_SALDO_NF|I|1||||1|3|(Memo)|15/08/2011|1|
 SYS_PARAMETRO                           |CODPARAMETRO                            |837|ES|759|1|ES_GRUPO_USADO|D|0|EST_GRUPO|NOME|CODGRUPO|||(Memo)|15/08/2011|0|
 SYS_PARAMETRO                           |CODPARAMETRO                            |838|ES|760|1|ES_PERG_USADA|L|NÃO||||||(Memo)|23/08/2011|NÃO|
 SYS_PARAMETRO                           |CODPARAMETRO                            |839|VE|761|1|VE_ZERO_DEVOL|L|NÃO||||||(Memo)|29/08/2011|NÃO|
-SYS_PARAMETRO                           |CODPARAMETRO                            |840|VE|762|1|VE_PRC_DEV_ANT|L|NÃO||||||(Memo)|29/08/2011|SIM|
-SYS_PARAMETRO                           |CODPARAMETRO                            |841|EC|763|1|EC_SO_COM_SALDO|L|SIM||||||(Memo)|31/08/2011|NÃO|
-SYS_PARAMETRO                           |CODPARAMETRO                            |842|VE|764|1|VE_SAIR_ATRASO_NV|L|SIM||||||(Memo)|05/09/2011|NÃO|
+SYS_PARAMETRO                           |CODPARAMETRO                            |840|VE|762|1|VE_PRC_DEV_ANT|L|SIM||||||(Memo)|29/08/2011|SIM|
+SYS_PARAMETRO                           |CODPARAMETRO                            |841|EC|763|1|EC_SO_COM_SALDO|L|NÃO||||||(Memo)|31/08/2011|NÃO|
+SYS_PARAMETRO                           |CODPARAMETRO                            |842|VE|764|1|VE_SAIR_ATRASO_NV|L|NÃO||||||(Memo)|05/09/2011|NÃO|
 SYS_PARAMETRO                           |CODPARAMETRO                            |843|VE|765|1|VE_DIAS_ATRASO_NV|I|0||||||(Memo)|05/09/2011|0|
 SYS_PARAMETRO                           |CODPARAMETRO                            |844|CO|766|1|CO_SEGUNDO_END|D|0|CLF_CLIFORTIPOENDERECO|NOME|CODTIPOENDERECO|||(Memo)|13/09/2011|0|
 SYS_PARAMETRO                           |CODPARAMETRO                            |845|VE|767|1|VE_SEP_SAI_DEV|L|SIM||||||(Memo)|03/10/2011|SIM|
@@ -2054,11 +2069,11 @@ SYS_PARAMETRO                           |CODPARAMETRO                           
 SYS_PARAMETRO                           |CODPARAMETRO                            |856|CO|778|1|CO_CARTA_AUTOMATICA|I|1||||1|2|(Memo)|10/11/2011|1|
 SYS_PARAMETRO                           |CODPARAMETRO                            |857|CL|779|1|CL_CLA_CLI_DATA|C|01/01/01||||||(Memo)|11/11/2011|01/01/01|
 SYS_PARAMETRO                           |CODPARAMETRO                            |858|CL|780|1|CL_CLA_CLI_PERFIL|D|0|USR_PERFIL|NOME|CODPERFIL|||(Memo)|11/11/2011|0|
-SYS_PARAMETRO                           |CODPARAMETRO                            |859|VE|781|1|VE_FATURAR_FECHA|L|SIM||||||(Memo)|23/12/2011|NÃO|
+SYS_PARAMETRO                           |CODPARAMETRO                            |859|VE|781|1|VE_FATURAR_FECHA|L|NÃO||||||(Memo)|23/12/2011|NÃO|
 SYS_PARAMETRO                           |CODPARAMETRO                            |860|ES|782|1|ES_NF_PRINOME|L|NÃO||||||(Memo)|23/12/2011|NÃO|
 SYS_PARAMETRO                           |CODPARAMETRO                            |861|ES|783|1|ES_TIPO_ACERTOBAL|I|1||||1|2|(Memo)|03/01/2012|1|
 SYS_PARAMETRO                           |CODPARAMETRO                            |862|CL|784|1|CL_PREFEITURA|D|-1|CLF_CLASSIFICACAO|NOME|CODCLASSIFICACAOCF|||(Memo)|17/02/2012|-1|
-SYS_PARAMETRO                           |CODPARAMETRO                            |863|CO|785|1|CO_CONFERENTE|I|3||||1|4|(Memo)|13/03/2012|1|
+SYS_PARAMETRO                           |CODPARAMETRO                            |863|CO|785|1|CO_CONFERENTE|I|1||||1|4|(Memo)|13/03/2012|1|
 SYS_PARAMETRO                           |CODPARAMETRO                            |864|CL|786|1|CL_ATUALIZAR_LIMITE|L|NÃO||||||(Memo)|16/03/2012|NÃO|
 SYS_PARAMETRO                           |CODPARAMETRO                            |865|CL|787|1|CL_PERC_DF|R|40||||||(Memo)|16/03/2012|40|
 SYS_PARAMETRO                           |CODPARAMETRO                            |866|CL|788|1|CL_PERC_MAN10|R|5||||||(Memo)|16/03/2012|5|
@@ -2106,14 +2121,14 @@ SYS_PARAMETRO                           |CODPARAMETRO                           
 SYS_PARAMETRO                           |CODPARAMETRO                            |908|CX|839|1|CX_FC_SAQUE|D|-1|CNT_TIPOFLUXOCAIXA|NOME|CODFLUXOCAIXA|||(Memo)|23/01/2013|-1|
 SYS_PARAMETRO                           |CODPARAMETRO                            |909|CX|840|1|CX_PENDENTE|L|SIM||||||(Memo)|23/01/2013|SIM|
 SYS_PARAMETRO                           |CODPARAMETRO                            |910|CX|841|1|CX_FC_RECEBIMENTO|D|-1|CNT_TIPOFLUXOCAIXA|NOME|CODFLUXOCAIXA|||(Memo)|23/01/2013|-1|
-SYS_PARAMETRO                           |CODPARAMETRO                            |911|CO|842|1|CO_PEDIR_NUMCARTAO|L|SIM||||||(Memo)|23/01/2013|NÃO|
+SYS_PARAMETRO                           |CODPARAMETRO                            |911|CO|842|1|CO_PEDIR_NUMCARTAO|L|NÃO||||||(Memo)|23/01/2013|NÃO|
 SYS_PARAMETRO                           |CODPARAMETRO                            |912|VE|843|1|VE_MSG_ORC1|C|||||||(Memo)|07/03/2013||
 SYS_PARAMETRO                           |CODPARAMETRO                            |913|VE|844|1|VE_MSG_ORC2|C|||||||(Memo)|07/03/2013||
 SYS_PARAMETRO                           |CODPARAMETRO                            |914|VE|845|1|VE_MSG_ORC3|C|||||||(Memo)|07/03/2013||
 SYS_PARAMETRO                           |CODPARAMETRO                            |915|ES|847|1|ES_PERG_DUPLICA|L|SIM||||||(Memo)|15/03/2013|SIM|
 SYS_PARAMETRO                           |CODPARAMETRO                            |916|CX|848|1|CX_FC_DEVOLUCAO|D|-1|CNT_TIPOFLUXOCAIXA|NOME|CODFLUXOCAIXA|||(Memo)|08/04/2013|-1|
 SYS_PARAMETRO                           |CODPARAMETRO                            |917|ES|849|1|ES_MANTER_PV_MAIOR|L|SIM||||||(Memo)|14/05/2013|SIM|
-SYS_PARAMETRO                           |CODPARAMETRO                            |918|VE|850|1|VE_PARAR_CHEQUE|L|SIM||||||(Memo)|22/05/2013|NÃO|
+SYS_PARAMETRO                           |CODPARAMETRO                            |918|VE|850|1|VE_PARAR_CHEQUE|L|NÃO||||||(Memo)|22/05/2013|NÃO|
 SYS_PARAMETRO                           |CODPARAMETRO                            |919|VE|851|1|VE_CTACXACT_RAPIDA|D|-1|CXA_CAIXA|NOME|CODCAIXA|||(Memo)|22/05/2013|-1|
 SYS_PARAMETRO                           |CODPARAMETRO                            |920|VE|852|1|VE_CTACXACH_RAPIDA|D|-1|CXA_CAIXA|NOME|CODCAIXA|||(Memo)|22/05/2013|-1|
 SYS_PARAMETRO                           |CODPARAMETRO                            |921|GE|853|1|GE_PROCEDIMENTO|L|NÃO||||||(Memo)|09/06/2013|NÃO|
@@ -2152,7 +2167,7 @@ SYS_PARAMETRO                           |CODPARAMETRO                           
 SYS_PARAMETRO                           |CODPARAMETRO                            |954|ST|363|1|ST_HIS_COBRANCA|C|CRÉDITO COBRANÇA||||||(Memo)|05/02/2014|CRÉDITO COBRANÇA|
 SYS_PARAMETRO                           |CODPARAMETRO                            |955|BD|883|1|BD_EMITE|I|2||||1|2|(Memo)|24/02/2014|2|
 SYS_PARAMETRO                           |CODPARAMETRO                            |956|BD|884|1|BD_MENSAGEM_ADIC|L|NÃO||||||(Memo)|27/02/2014|NÃO|
-SYS_PARAMETRO                           |CODPARAMETRO                            |957|VE|885|1|VE_PEDIR_TIPODOC|L|SIM||||||(Memo)|10/04/2014|NÃO|
+SYS_PARAMETRO                           |CODPARAMETRO                            |957|VE|885|1|VE_PEDIR_TIPODOC|L|NÃO||||||(Memo)|10/04/2014|NÃO|
 SYS_PARAMETRO                           |CODPARAMETRO                            |958|ST|348|1|ST_PROTESTO|I|0||||||(Memo)|17/04/2014|0|
 SYS_PARAMETRO                           |CODPARAMETRO                            |959|ST|886|1|ST_JUROS|R|0||||||(Memo)|17/04/2014|0|
 SYS_PARAMETRO                           |CODPARAMETRO                            |960|ST|887|1|ST_TIPOJUROS|I|2||||||(Memo)|17/04/2014|2|
@@ -2170,10 +2185,10 @@ SYS_PARAMETRO                           |CODPARAMETRO                           
 SYS_PARAMETRO                           |CODPARAMETRO                            |972|CE|896|1|CE_IMP_IMAGEM|L|NÃO||||||(Memo)|27/03/2014|NÃO|
 SYS_PARAMETRO                           |CODPARAMETRO                            |973|CE|895|1|CE_PASTA_IMAGEM|P|C:\IMAGEM.JPG||||||(Memo)|27/03/2014|C:\IMAGEM.JPG|
 SYS_PARAMETRO                           |CODPARAMETRO                            |974|CE|897|1|CE_ESTICA_IMAGEM|L|NÃO||||||(Memo)|27/03/2014|NÃO|
-SYS_PARAMETRO                           |CODPARAMETRO                            |975|CL|898|1|CL_END_OBRIG|L|SIM||||||(Memo)|12/08/2014|NÃO|
-SYS_PARAMETRO                           |CODPARAMETRO                            |976|CL|899|1|CL_FONE_OBRIG|L|SIM||||||(Memo)|12/08/2014|NÃO|
+SYS_PARAMETRO                           |CODPARAMETRO                            |975|CL|898|1|CL_END_OBRIG|L|NÃO||||||(Memo)|12/08/2014|NÃO|
+SYS_PARAMETRO                           |CODPARAMETRO                            |976|CL|899|1|CL_FONE_OBRIG|L|NÃO||||||(Memo)|12/08/2014|NÃO|
 SYS_PARAMETRO                           |CODPARAMETRO                            |977|GU|900|1|GU_SETOR_MOT|D|1|USR_SETOR|CODSETOR|NOME|||(Memo)|12/09/2014|1|
-SYS_PARAMETRO                           |CODPARAMETRO                            |978|VE|901|1|VE_FATURAR_IMPRIME|L|SIM||||||(Memo)|12/09/2014|NÃO|
+SYS_PARAMETRO                           |CODPARAMETRO                            |978|VE|901|1|VE_FATURAR_IMPRIME|L|NÃO||||||(Memo)|12/09/2014|NÃO|
 SYS_PARAMETRO                           |CODPARAMETRO                            |979|VE|902|1|VE_IMP_OBS_NVPEQ|L|NÃO||||||(Memo)|12/09/2014|NÃO|
 SYS_PARAMETRO                           |CODPARAMETRO                            |980|VE|903|1|VE_PROMISSORIA_TAM|I|1||||1|2|(Memo)|12/09/2014|1|
 SYS_PARAMETRO                           |CODPARAMETRO                            |981|BD|896|1|BD_IMP_IMAGEM|L|NÃO||||||(Memo)|18/09/2014|NÃO|
@@ -2209,12 +2224,12 @@ SYS_PARAMETRO                           |CODPARAMETRO                           
 SYS_PARAMETRO                           |CODPARAMETRO                            |1011|ES|930|1|ES_TIPOHORA_NFE|I|1||||||(Memo)|20/03/2015|1|
 SYS_PARAMETRO                           |CODPARAMETRO                            |1012|VE|931|1|VE_TEMPO_ANALISE|I|15||||||(Memo)|28/03/2015|15|
 SYS_PARAMETRO                           |CODPARAMETRO                            |1013|VE|932|1|VE_SOM_NOTIFICACAO|P|C:\NOTIFICACAO.WAV||||||(Memo)|28/03/2015|C:\NOTIFICACAO.WAV|
-SYS_PARAMETRO                           |CODPARAMETRO                            |1014|ES|933|1|ES_TIPO_NFENTRADA|D|-1|GER_TIPONOTA|NOME|CODTIPONOTA|||(Memo)|02/04/2015|-1|
+SYS_PARAMETRO                           |CODPARAMETRO                            |1014|ES|933|1|ES_TIPO_NFENTRADA|D|0|GER_TIPONOTA|NOME|CODTIPONOTA|||(Memo)|02/04/2015|-1|
 SYS_PARAMETRO                           |CODPARAMETRO                            |1015|EM|934|1|EM_ALTURA_ARGOX4|I|600||||||(Memo)|16/04/2015|600|
 SYS_PARAMETRO                           |CODPARAMETRO                            |1016|EM|935|1|EM_MSG_ARGOX4|C|Prazo de 5 dias para troca||||||(Memo)|16/04/2015|Prazo de 5 dias para troca|
 SYS_PARAMETRO                           |CODPARAMETRO                            |1017|EM|936|1|EM_CODIGO_REF2|D|-1|EST_TIPOCODIGOMERCADORIA|NOME|CODTIPOCODIGOMERCADORIA|||(Memo)|03/07/2015|-1|
 SYS_PARAMETRO                           |CODPARAMETRO                            |1018|EM|937|1|EM_ALTURA_BIXOLON|C|22,0||||||(Memo)|24/07/2015|22,0|
-SYS_PARAMETRO                           |CODPARAMETRO                            |1019|ES|938|1|ES_CODIGO_XML|D|-1|EST_TIPOCODIGOMERCADORIA|NOME|CODTIPOCODIGOMERCADORIA|||(Memo)|28/07/2015|-1|
+SYS_PARAMETRO                           |CODPARAMETRO                            |1019|ES|938|1|ES_CODIGO_XML|D|1|EST_TIPOCODIGOMERCADORIA|NOME|CODTIPOCODIGOMERCADORIA|||(Memo)|28/07/2015|-1|
 SYS_PARAMETRO                           |CODPARAMETRO                            |1020|CE|939|1|CE_SAIR_CPF|L|SIM||||||(Memo)|04/08/2015|SIM|
 SYS_PARAMETRO                           |CODPARAMETRO                            |1021|ES|940|1|ES_PASTA_NFSE_INI|P|c:\||||||(Memo)|13/08/2015|c:\|
 SYS_PARAMETRO                           |CODPARAMETRO                            |1022|ES|941|1|ES_PASTA_NFSE_FIM|P|c:\temp||||||(Memo)|13/08/2015|c:\temp|
@@ -2227,7 +2242,7 @@ SYS_PARAMETRO                           |CODPARAMETRO                           
 SYS_PARAMETRO                           |CODPARAMETRO                            |1029|EM|948|1|EM_LINHA2|C|LINHA2||||||(Memo)|19/02/2016|LINHA2|
 SYS_PARAMETRO                           |CODPARAMETRO                            |1030|EM|949|1|EM_LINHA3|C|LINHA3||||||(Memo)|19/02/2016|LINHA3|
 SYS_PARAMETRO                           |CODPARAMETRO                            |1031|EM|950|1|EM_IMP_ELGIN|C|BTP-L42(U)||||||(Memo)|19/02/2016|BTP-L42(U)|
-SYS_PARAMETRO                           |CODPARAMETRO                            |1032|ES|951|1|ES_TIPONOTA_XML|D|1|GER_TIPONOTA|NOME|CODTIPONOTA|||(Memo)|01/03/2016|1|
+SYS_PARAMETRO                           |CODPARAMETRO                            |1032|ES|951|1|ES_TIPONOTA_XML|D|3|GER_TIPONOTA|NOME|CODTIPONOTA|||(Memo)|01/03/2016|1|
 SYS_PARAMETRO                           |CODPARAMETRO                            |1033|VE|952|1|VE_CLASSIF_PLACA|D|-1|EST_CLASSIFICACAO1|NOME|CODCLASSIFICACAO1|||(Memo)|14/03/2016|-1|
 SYS_PARAMETRO                           |CODPARAMETRO                            |1034|VE|953|1|VE_BUSCA_MERC_VR|C|||||||(Memo)|25/05/2016||
 SYS_PARAMETRO                           |CODPARAMETRO                            |1035|UC|418|1|UC_BANCO|D|0|CLF_BANCO|NOME|CODBANCO|||(Memo)|23/06/2016|0|
@@ -2254,17 +2269,17 @@ SYS_PARAMETRO                           |CODPARAMETRO                           
 SYS_PARAMETRO                           |CODPARAMETRO                            |1057|CF|964|1|CF_REMORA_CAMINHO|P|C:\Program Files (x86)\Intelbras\Remoraw5\INTEGRA||||||(Memo)|30/11/2017|C:\Program Files (x86)\Intelbras\Remoraw5\INTEGRA|
 SYS_PARAMETRO                           |CODPARAMETRO                            |1058|CP|965|1|CP_TIPO|C|V||||||(Memo)|09/02/2018|V|
 SYS_PARAMETRO                           |CODPARAMETRO                            |1059|VE|966|1|VE_NFE_ENCERRADA|L|SIM||||||(Memo)|23/03/2018|SIM|
-SYS_PARAMETRO                           |CODPARAMETRO                            |1060|ES|967|1|ES_CODIGO_CEST|D|500000|EST_TIPOCODIGOMERCADORIA|NOME|CODTIPOCODIGOMERCADORIA|||(Memo)|23/03/2018|-1|
-SYS_PARAMETRO                           |CODPARAMETRO                            |1061|ES|968|1|ES_CODIGO_ANP|D|500001|EST_TIPOCODIGOMERCADORIA|NOME|CODTIPOCODIGOMERCADORIA|||(Memo)|23/03/2018|-1|
+SYS_PARAMETRO                           |CODPARAMETRO                            |1060|ES|967|1|ES_CODIGO_CEST|D|-1|EST_TIPOCODIGOMERCADORIA|NOME|CODTIPOCODIGOMERCADORIA|||(Memo)|23/03/2018|-1|
+SYS_PARAMETRO                           |CODPARAMETRO                            |1061|ES|968|1|ES_CODIGO_ANP|D|-1|EST_TIPOCODIGOMERCADORIA|NOME|CODTIPOCODIGOMERCADORIA|||(Memo)|23/03/2018|-1|
 SYS_PARAMETRO                           |CODPARAMETRO                            |1062|VE|969|1|VE_OS_PLACA|L|NÃO||||||(Memo)|27/03/2018|NÃO|
 SYS_PARAMETRO                           |CODPARAMETRO                            |1063|VE|970|1|VE_LARGURA_COMPRIMEN|C|N||||||(Memo)|04/04/2018|N|
 SYS_PARAMETRO                           |CODPARAMETRO                            |1064|UT|971|1|UT_SERVIDOR|C|http://localhost/||||||(Memo)|25/04/2018|http://localhost/|
 SYS_PARAMETRO                           |CODPARAMETRO                            |1065|DP|972|1|DP_APP_PONTO|C|N||||||(Memo)|25/04/2018|N|
 SYS_PARAMETRO                           |CODPARAMETRO                            |1066|UT|973|1|UT_PERFIL_APP_PONTO|D|-1|USR_PERFIL|NOME|CODPERFIL|||(Memo)|26/04/2018|-1|
-SYS_PARAMETRO                           |CODPARAMETRO                            |1067|GE|974|1|GE_SQL|L|NÃO||||||(Memo)|26/04/2018|NÃO|
+SYS_PARAMETRO                           |CODPARAMETRO                            |1067|GE|974|1|GE_SQL|L|SIM||||||(Memo)|26/04/2018|NÃO|
 SYS_PARAMETRO                           |CODPARAMETRO                            |1068|UT|975|1|UT_ORIGEM_BKP|C|C:\Minas_Software\Temp\bkp||||||(Memo)|02/05/2018|C:\Minas_Software\Temp\bkp|
 SYS_PARAMETRO                           |CODPARAMETRO                            |1069|UT|976|1|UT_DESTINO_BKP|C|C:\Minas_Software\BancoDeDados\bkp||||||(Memo)|02/05/2018|C:\Minas_Software\BancoDeDados\bkp|
-SYS_PARAMETRO                           |CODPARAMETRO                            |1070|GE|977|1|GE_SQL_PERFIL|D|-1|USR_PERFIL|NOME|CODPERFIL|||(Memo)|03/05/2018|-1|
+SYS_PARAMETRO                           |CODPARAMETRO                            |1070|GE|977|1|GE_SQL_PERFIL|D|1|USR_PERFIL|NOME|CODPERFIL|||(Memo)|03/05/2018|-1|
 SYS_PARAMETRO                           |CODPARAMETRO                            |1071|VE|978|1|VE_MOSTRAR_VENC|L|SIM||||||(Memo)|17/05/2018|SIM|
 SYS_PARAMETRO                           |CODPARAMETRO                            |1072|ES|979|1|ES_SENHA_NFSE|C|senha||||||(Memo)|19/05/2018|senha|
 SYS_PARAMETRO                           |CODPARAMETRO                            |1073|ES|980|1|ES_AMBIENTE_ISS|C|H||||||(Memo)|19/05/2018|H|
@@ -2278,7 +2293,7 @@ SYS_PARAMETRO                           |CODPARAMETRO                           
 SYS_PARAMETRO                           |CODPARAMETRO                            |1081|ES|983|1|ES_AUT_XML|C|CNPJ/CPF||||||(Memo)|04/06/2018|CNPJ/CPF|
 SYS_PARAMETRO                           |CODPARAMETRO                            |1082|ES|984|1|ES_MOSTRAR_SALDO_GRA|L|SIM||||||(Memo)|27/06/2018|SIM|
 SYS_PARAMETRO                           |CODPARAMETRO                            |1083|UT|985|1|UT_ROTINA_BKP|L|NÃO||||||(Memo)|07/07/2018|SIM|
-SYS_PARAMETRO                           |CODPARAMETRO                            |1084|ES|986|1|ES_CONEXAO_FISCAL|C|1||||||(Memo)|12/07/2018|1|
+SYS_PARAMETRO                           |CODPARAMETRO                            |1084|ES|986|1|ES_CONEXAO_FISCAL|C|2||||||(Memo)|12/07/2018|1|
 SYS_PARAMETRO                           |CODPARAMETRO                            |1085|ES|987|1|ES_COD_MER_NF-E|C|1||||||(Memo)|19/07/2018|1|
 SYS_PARAMETRO                           |CODPARAMETRO                            |1086|VE|988|1|VE_TERMO_RESPONSABIL|L|NÃO||||||(Memo)|08/10/2018|NÃO|
 SYS_PARAMETRO                           |CODPARAMETRO                            |1087|CO|989|1|CO_BEMATECH_TERMICA|L|NÃO||||||(Memo)|09/10/2018|NÃO|
@@ -2288,5 +2303,20 @@ SYS_PARAMETRO                           |CODPARAMETRO                           
 SYS_PARAMETRO                           |CODPARAMETRO                            |1091|VE|993|1|VE_CST_NFCE|D|-1|EST_CST|CODCST|CODCST|||(Memo)|01/04/2019|-1|
 SYS_PARAMETRO                           |CODPARAMETRO                            |1092|VE|994|1|VE_ALIQUOTA_NFCE|D|-1|EST_ALIQUOTA|NOME|CODALIQUOTA|||(Memo)|01/04/2019|-1|
 SYS_PARAMETRO                           |CODPARAMETRO                            |1093|VE|995|1|VE_CONDICAO_PGTO_NFC|D|-1|GER_CONDICAOPAGAMENTO|NOME|CODCONDICAOPAGAMENTO|||(Memo)|02/04/2019|-1|
-SYS_PARAMETRO                           |CODPARAMETRO                            |1094|VE|996|1|VE_ESPECIE_FAT_VEND|L|SIM||||||(Memo)|26/04/2019|NÃO|
+SYS_PARAMETRO                           |CODPARAMETRO                            |1094|VE|996|1|VE_ESPECIE_FAT_VEND|L|NÃO||||||(Memo)|26/04/2019|NÃO|
 SYS_PARAMETRO                           |CODPARAMETRO                            |1095|VE|997|1|VE_DESCONTO_ITENS_VE|C|2||||||(Memo)|30/04/2019|2|
+SYS_PARAMETRO                           |CODPARAMETRO                            |1096|GE|998|1|GE_SPED|L|NÃO||||||(Memo)|09/05/2019|NÃO|
+SYS_PARAMETRO                           |CODPARAMETRO                            |1097|GE|999|1|GE_NFC-E|L|NÃO||||||(Memo)|09/05/2019|NÃO|
+SYS_PARAMETRO                           |CODPARAMETRO                            |1098|VE|1000|1|VE_NOME_CAMPO_COMPRA|C|Comprador||||||(Memo)|13/05/2019|Comprador|
+SYS_PARAMETRO                           |CODPARAMETRO                            |1099|ES|1001|1|ES_CST_PADRAO_500|D|-1|EST_CST|CODCST|CODCST|||(Memo)|06/08/2019|-1|
+SYS_PARAMETRO                           |CODPARAMETRO                            |1100|ES|1002|1|ES_CST_PADRAO_102|D|-1|EST_CST|CODCST|CODCST|||(Memo)|06/08/2019|-1|
+SYS_PARAMETRO                           |CODPARAMETRO                            |1101|ES|1003|1|ES_CST_ALIQUOTA_500|D|-1|EST_ALIQUOTA|NOME|CODALIQUOTA|||(Memo)|06/08/2019|-1|
+SYS_PARAMETRO                           |CODPARAMETRO                            |1102|ES|1004|1|ES_CST_ALIQUOTA_102|D|-1|EST_ALIQUOTA|NOME|CODALIQUOTA|||(Memo)|06/08/2019|-1|
+SYS_PARAMETRO                           |CODPARAMETRO                            |1103|ES|1005|1|EC_CF_NAO_CAPTURADO|L|NÃO||||||(Memo)|06/08/2019|NÃO|
+SYS_PARAMETRO                           |CODPARAMETRO                            |1104|ES|1006|1|EC_PERFIL_CAPT_CF|D|-1|USR_PERFIL|NOME|CODPERFIL|||(Memo)|06/08/2019|-1|
+SYS_PARAMETRO                           |CODPARAMETRO                            |1105|UT|1007|1|UT_ACESSO_REMOTO|C|C:\Temp\TeamViewerQS.exe||||||(Memo)|15/08/2019|C:\Temp\TeamViewerQS.exe|
+SYS_PARAMETRO                           |CODPARAMETRO                            |1106|VE|1008|1|VE_AGENDA_SERVICO|L|NÃO||||||(Memo)|26/08/2019|NÃO|
+SYS_PARAMETRO                           |CODPARAMETRO                            |1107|CF|1009|1|CF_TEL_WHATSAPP|D|-1|CLF_TIPOTELEFONE|NOME|CODTIPOTELEFONE|||(Memo)|28/08/2019|-1|
+SYS_PARAMETRO                           |CODPARAMETRO                            |1108|ES|1010|1|ES_MERC_USO_CONSUMO|D|500016|EST_GRUPO|NOME|CODGRUPO|||(Memo)|09/09/2019|-1|
+SYS_PARAMETRO                           |CODPARAMETRO                            |1109|ES|1011|1|ES_CFOP_USO_DENTRO|D|-1|ENS_CFOP|CFOP|CODCFOP|||(Memo)|10/09/2019|-1|
+SYS_PARAMETRO                           |CODPARAMETRO                            |1110|ES|1012|1|ES_CFOP_USO_FORA|D|-1|ENS_CFOP|CFOP|CODCFOP|||(Memo)|10/09/2019|-1|
